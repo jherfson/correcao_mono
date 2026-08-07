@@ -1,0 +1,209 @@
+%!TEX root = ./main.tex
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% ----------------------------------------------------------
+% ELEMENTOS PRÉ-TEXTUAIS
+% ----------------------------------------------------------
+% \pretextual
+
+% ---
+% Capa
+% ---
+
+\begingroup
+
+\newgeometry{left=3cm,right=3cm,top=2cm,bottom=1.25cm}
+\centering
+\imprimircapa
+
+% ---
+% Folha de rosto
+% (o * indica que haverá a ficha bibliográfica)
+% ---
+
+\imprimirfolhaderosto*
+
+\endgroup
+
+% ---
+% Inserir a ficha bibliografica
+% ---
+
+% Isto é um exemplo de Ficha Catalográfica, ou ``Dados internacionais de
+% catalogação-na-publicação''. Você pode utilizar este modelo como referência. 
+% Porém, provavelmente a biblioteca da sua universidade lhe fornecerá um PDF
+% com a ficha catalográfica definitiva após a defesa do trabalho. Quando estiver
+% com o documento, salve-o como PDF no diretório do seu projeto e substitua todo
+% o conteúdo de implementação deste arquivo pelo comando abaixo:
+%
+% \usepackage{pdfpages}		% necessário para comando \includepdf
+% \begin{fichacatalografica}
+%     \includepdf{fig_ficha_catalografica.pdf}
+% \end{fichacatalografica}
+
+% ficha catalográfica meio zoada mas funciona! :p
+\begingroup
+\newgeometry{left=3cm,right=3cm,top=2cm,bottom=2cm}
+\centering
+\begin{fichacatalografica}
+	\sffamily
+	\vspace*{\fill}					% Posição vertical
+	\begin{center}				% Minipage Centralizado
+	\framebox[130mm]{\indent\begin{minipage}[75mm]{125mm}		% Largura
+	\smallskip
+	\small
+	\justifying{
+
+	% \imprimirautor
+	%Sobrenome, Nome do autor
+	Castro Gomes, Jherfson  
+
+ \imprimirtitulo  / \imprimirautor. -- \imprimirlocal, \imprimirdata- \\
+	
+ \thelastpage p. : il. (algumas color.) ; 30 cm. \\
+	
+ \imprimirorientadorRotulo~\imprimirorientador \par
+ {\imprimirtipotrabalho~--~\imprimirinstituicao, \imprimirdata.} \\
+	
+		1. espectro de impedância.
+		2. deep learning.
+		2. machine learning. 
+    I. Prof. Dr. Clenilton Costa dos Santos. 
+    II. Universidade Federal do Maranhão.
+		III. Física.
+		IV. Título. 			}
+
+	\smallskip
+	\end{minipage}}
+	\end{center}
+\end{fichacatalografica}
+\restoregeometry
+\endgroup
+
+% ---
+
+% ---
+% Inserir errata
+% ---
+% sem errata
+% ---
+
+% ---
+% Inserir folha de aprovação
+% ---
+
+% Isto é um exemplo de Folha de aprovação, elemento obrigatório da NBR
+% 14724/2011 (seção 4.2.1.3). Você pode utilizar este modelo até a aprovação
+% do trabalho. Após isso, substitua todo o conteúdo deste arquivo por uma
+% imagem da página assinada pela banca com o comando abaixo:
+%
+% \begin{folhadeaprovacao}
+% \includepdf{folhadeaprovacao_final.pdf}
+% \end{folhadeaprovacao}
+%
+\begingroup
+
+\newgeometry{left=3cm,right=3cm,top=3cm,bottom=1.25cm}
+\centering
+\begin{folhadeaprovacao}
+
+  \begin{center}
+    {\ABNTEXchapterfont\normalfont\normalsize\MakeUppercase\imprimirautor}
+
+    \vspace*{\fill}\vspace*{\fill}
+    \begin{center}
+      \ABNTEXchapterfont\bfseries\large\MakeUppercase\imprimirtitulo
+    \end{center}
+    \vspace*{\fill}
+    
+    \hspace{.45\textwidth}
+    \begin{minipage}{.5\textwidth}
+        \imprimirpreambulo
+    \end{minipage}%
+
+   \vspace*{\fill}
+   \vfill     
+   Trabalho aprovado. \imprimirlocal, -- de julho de 2026
+
+   \end{center}
+
+   \assinatura{\textbf{ Prof. Dr. Clenilton Costa dos Santos} (Orientador) \\ Universidade Federal do Maranhão - UFMA}   
+   \assinatura{\textbf{ Prof. Dr. Rodolpho Mouta Monte Prado} (Coorientador) \\ Universidade Federal do Ceará - UFC}
+    \assinatura{\textbf{Prof. Me. Micael Rocha de Azevêdo} 
+    \\ Universidade Estadual do Sudoeste da Bahia - UESB}    
+    \assinatura{\textbf{Profa. Dra. Carleane Patrícia da Silva Reis}
+     \\Laboratório Ibérico Internacional de Nanotecnologia - INL}
+   %\assinatura{\textbf{Professor} \\ Convidado 3}
+   %\assinatura{\textbf{Professor} \\ Convidado 4}
+      
+   \begin{center}
+    \vspace*{2.5cm}
+    {\large\imprimirlocal}
+    \par
+    {\large\imprimirdata}
+    \vspace*{1cm}
+  \end{center}
+  
+\end{folhadeaprovacao}
+\endgroup
+
+% ---
+
+% ---
+% Dedicatória
+% ---
+% sem dedicatória
+% ---
+
+% ---
+% Agradecimentos
+% ---
+\begin{agradecimentos}
+Agradeço ao professo Rodolpho e ao professor Clenilton pela orientação, pela disponibilidade e pelo conhecimento compartilhado ao longo deste trabalho e do curso. A dedicação de vocês foi fundamental para que este projeto se tornasse realidade. 
+
+À minha amiga Itxasne e a todos que estiveram presentes durante esses anos de cursos, pelas conversas, pelo apoio nos momentos difíceis, pelas risadas e por tornarem essa jornada muito mais leve. A companhia de vocês fez toda a diferença. 
+
+À minha esposa, Iatamana, meu maior suporte. Obrigado pela paciência, pelo incentivo constante e por estar ao meu lado em cada etapa – especialmente nas mais difíceis. Sem você, nada disso faria sentido.  
+
+À minha família, pelo amor incondicional e pela torcida de sempre. Vocês são a minha base. 
+
+Agradeço à Fundação de Amparo à Pesquisa e ao Desenvolvimento Científico e Tecnológico do Maranhão (FAPEMA) e ao Conselho Nacional de Desenvolvimento Científico e Tecnológico (CNPq) pelo apoio concedido ao longo deste trabalho, por meio do incentivo à pesquisa científica.
+
+Portanto, agradeço a todas as pessoas que de alguma forma passaram pela minha vida e deixaram algo. Cada encontro, cada conversa e cada experiência contribuiu para quem eu sou hoje e para chegar até aqui. 
+
+\end{agradecimentos}
+% ---
+
+% ---
+% Epígrafe
+% ---
+% sem epígrafe
+
+% ---
+% RESUMOS
+% ---
+
+% resumo em português
+\setlength{\absparsep}{18pt} % ajusta o espaçamento dos parágrafos do resumo
+\begin{resumo}
+ O desenvolvimento de materiais para baterias recarregáveis tem despertado crescente interesse devido à expansão dos dispositivos de armazenamento de energia e à necessidade de tecnologias mais eficientes e sustentáveis. Nesse cenário, a Espectroscopia de Impedância Eletroquímica (EIS) constitui uma das principais técnicas para caracterizar eletrólitos sólidos e materiais de eletrodos, permitindo determinar propriedades como a condutividade iônica. No entanto, a interpretação dos espectros e a seleção do circuito equivalente mais adequado para o ajuste dos dados ainda dependem, em grande parte, da experiência do pesquisador, tornando esse processo demorado e sujeito a interpretações distintas. Diante desse desafio, este trabalho propõe a aplicação de técnicas de Inteligência Artificial (AI) para automatizar a classificação de espectros de impedância.
+ Para o treinamento dos modelos, foi desenvolvido um banco de dados composto por espectros sintéticos gerados a partir de diferentes circuitos equivalentes e combinações de parâmetros elétricos. Inicialmente, foram avaliados modelos baseados em \textit{Deep Learning} (DL), cujos resultados evidenciaram a importância da etapa de pré-processamento dos dados. Após a normalização dos espectros, observou-se um aumento significativo na precisão da classificação. Em seguida, foram implementados e comparados diferentes algoritmos de \textit{Machine Learning} (ML	), que apresentaram desempenho superior para o conjunto de dados estudado. A otimização dos hiperparâmetros também contribuiu para melhorar a capacidade de classificação dos modelos.
+ Os resultados obtidos demonstram que técnicas de \textit{Machine Learning} constituem uma alternativa promissora para auxiliar na identificação automática do circuito equivalente associado aos espectros de impedância, reduzindo o tempo de análise e a subjetividade do processo. Como perspectivas futuras, destacam-se a incorporação de ruídos aos espectros sintéticos, a ampliação do banco de dados com diferentes faixas de frequência e a avaliação dos modelos utilizando dados experimentais. Espera-se que a metodologia proposta contribua para acelerar a caracterização de materiais e o desenvolvimento de novos eletrólitos sólidos e eletrodos para baterias recarregáveis, tornando o processo de pesquisa mais eficiente e confiável.
+
+ \textbf{Palavras-chave}: Espectro de impedância. Deep learning. Machine Learning. 
+\end{resumo}
+
+% resumo em inglês
+\begin{resumo}[Abstract]
+ \begin{otherlanguage*}{english}
+  The development of materials for rechargeable batteries has attracted increasing interest due to the rapid expansion of energy storage devices and the growing demand for more efficient and sustainable technologies. In this context, electrochemical impedance spectroscopy (EIS) has become one of the primary techniques for characterizing solid electrolytes and electrode materials, enabling the determination of properties such as ionic conductivity. However, the interpretation of impedance spectra and the selection of the most appropriate equivalent circuit for data fitting still rely heavily on the researcher's expertise, making the analysis time-consuming and subject to different interpretations. To address this challenge, this work proposes the application of artificial intelligence (AI) techniques to automate the classification of impedance spectra.  
+  To train the models, a database consisting of synthetic spectra generated from different equivalent circuits and combinations of electrical parameters was developed. Initially, deep learning-based models were evaluated, and the results highlighted the importance of the data preprocessing stage. After spectrum normalization, a significant improvement in classification accuracy was observed. Subsequently, different machine learning (ML) algorithms were implemented and compared, demonstrating superior performance for the dataset investigated. Hyperparameter optimization further enhanced the classification capability of the models.  
+  The results demonstrate that machine learning techniques provide a promising approach for assisting in the automatic identification of the equivalent circuit associated with impedance spectra, reducing both the analysis time and the subjectivity of the process. Future work includes incorporating noise into the synthetic spectra, expanding the database to cover different frequency ranges, and evaluating the models using experimental data. The proposed methodology is expected to accelerate the characterization of materials and the development of new solid electrolytes and electrode materials for rechargeable batteries, making the research process more efficient, reliable, and reproducible. 
+
+   \vspace{\onelineskip}
+ 
+   \noindent 
+   \textbf{Keywords}: Impedance spectrum. Deep Learning. Machine Learning.
+ \end{otherlanguage*}
+\end{resumo}
+
+

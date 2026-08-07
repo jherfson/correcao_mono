@@ -1,0 +1,195 @@
+\providecommand{\abntreprintinfo}[1]{%
+ \citeonline{#1}}
+\begin{thebibliography}{}
+\providecommand{\abntrefinfo}[3]{}
+\providecommand{\abntbstabout}[1]{}
+\abntbstabout{v-1.9.7 }
+
+\bibitem{IEA2026}
+\abntrefinfo{{International Energy Agency}}{{International Energy
+  Agency}}{2026}
+{{International Energy Agency}. \emph{{Global EV Outlook 2026}}.
+Paris, 2026. Dispon{\'\i}vel em:
+  \url{https://www.iea.org/reports/global-ev-outlook-2026}.}
+
+\bibitem{olivetti2017lithium}
+\abntrefinfo{Olivetti et al.}{OLIVETTI et al.}{2017}
+{OLIVETTI, E.~A. et al. Lithium-ion battery supply chain considerations:
+  Analysis of potential bottlenecks in critical metals.
+\emph{Joule}, v.~1, n.~2, p. 229--243, out. 2017.}
+
+\bibitem{armand2008building}
+\abntrefinfo{Armand e Tarascon}{ARMAND; TARASCON}{2008}
+{ARMAND, M.; TARASCON, J.-M. Building better batteries.
+\emph{Nature}, v.~451, n.~7179, p. 652--657, fev. 2008.}
+
+\bibitem{sinfronio2018effect}
+\abntrefinfo{Sinfr{\^o}nio et al.}{SINFR{\^O}NIO et al.}{2018}
+{SINFR{\^O}NIO, F. S.~M. et al. Effect of co-substitution on the vibrational,
+  magnetic, and dielectric properties of copper ferrites obtained by
+  microwave-assisted hydrothermal method.
+\emph{Journal of Electronic Materials}, v.~47, n.~11, p. 6821--6832, nov.
+  2018.}
+
+\bibitem{santos2018chitosan}
+\abntrefinfo{Santos et al.}{SANTOS et al.}{2018}
+{SANTOS, C. C.~d. et al. Chitosan-edible oil based materials as upgraded
+  adsorbents for textile dyes.
+\emph{Carbohydrate Polymers}, v.~180, p. 182--191, jan. 2018.}
+
+\bibitem{zhu2019equivalent}
+\abntrefinfo{Zhu et al.}{ZHU et al.}{2019}
+{ZHU, S. et al. Equivalent circuit model recognition of electrochemical
+  impedance spectroscopy via machine learning.
+\emph{Journal of Electroanalytical Chemistry}, v.~855, p. 113627, dez. 2019.}
+
+\bibitem{huang2021towards}
+\abntrefinfo{Huang, Papac e O'Hayre}{HUANG; PAPAC; O'HAYRE}{2021}
+{HUANG, J.; PAPAC, M.; O'HAYRE, R. Towards robust autonomous impedance
+  spectroscopy analysis: A calibrated hierarchical {B}ayesian approach for
+  electrochemical impedance spectroscopy (eis) inversion.
+\emph{Electrochimica Acta}, v.~367, p. 137493, jan. 2021.}
+
+\bibitem{obregon2023convolutional}
+\abntrefinfo{Obregon et al.}{OBREGON et al.}{2023}
+{OBREGON, J. et al. Convolutional autoencoder-based {SOH} estimation of
+  lithium-ion batteries using electrochemical impedance spectroscopy.
+\emph{Journal of Energy Storage}, v.~60, p. 106680, abr. 2023.}
+
+\bibitem{buteau2019analysis}
+\abntrefinfo{Buteau e Dahn}{BUTEAU; DAHN}{2019}
+{BUTEAU, S.; DAHN, J.~R. Analysis of thousands of electrochemical impedance
+  spectra of lithium-ion cells through a machine learning inverse model.
+\emph{Journal of The Electrochemical Society}, v.~166, n.~8, p. A1611--A1622,
+  maio 2019.}
+
+\bibitem{lazanas2023electrochemical}
+\abntrefinfo{Lazanas e Prodromidis}{LAZANAS; PRODROMIDIS}{2023}
+{LAZANAS, A.~C.; PRODROMIDIS, M.~I. Electrochemical impedance spectroscopy---a
+  tutorial.
+\emph{ACS Measurement Science Au}, mar. 2023.}
+
+\bibitem{dreher2005correlation}
+\abntrefinfo{Dreher e Chou}{DREHER; CHOU}{2005}
+{DREHER, A.~W.; CHOU, B. Correlation of objective refraction by {Z-View}
+  wavefront aberrometry with manifest refraction.
+\emph{Investigative Ophthalmology \& Visual Science}, v.~46, n.~13, p.~2001,
+  maio 2005.}
+
+\bibitem{lancaster2005chisquare}
+\abntrefinfo{Lancaster e Seneta}{LANCASTER; SENETA}{2005}
+{LANCASTER, H.~O.; SENETA, E. Chi-square distribution. In:  \emph{Encyclopedia
+  of Biostatistics}. [S.l.: s.n.], 2005. v.~2.}
+
+\bibitem{geron2017handson}
+\abntrefinfo{G{\'e}ron}{G{\'E}RON}{2017}
+{G{\'E}RON, A. \emph{Hands-on Machine Learning with Scikit-Learn and
+  TensorFlow: Concepts, Tools, and Techniques to Build Intelligent Systems}.
+  Sebastopol, CA: O'Reilly Media, 2017.}
+
+\bibitem{ludermir2021inteligencia}
+\abntrefinfo{Ludermir}{LUDERMIR}{2021}
+{LUDERMIR, T.~B. Intelig{\^e}ncia artificial e aprendizado de m{\'a}quina:
+  estado atual e tend{\^e}ncias.
+\emph{Estudos Avan{\c{c}}ados}, v.~35, n.~101, p. 85--94, abr. 2021.}
+
+\bibitem{kubat2017introduction}
+\abntrefinfo{Kubat}{KUBAT}{2017}
+{KUBAT, M. \emph{An Introduction to Machine Learning}. Cham: Springer
+  International Publishing, 2017.}
+
+\bibitem{goodfellow2016deep}
+\abntrefinfo{Goodfellow, Bengio e Courville}{GOODFELLOW; BENGIO;
+  COURVILLE}{2016}
+{GOODFELLOW, I.; BENGIO, Y.; COURVILLE, A. \emph{Deep Learning}. [S.l.]: MIT
+  Press, 2016.}
+
+\bibitem{fisher1936iris}
+\abntrefinfo{Fisher}{FISHER}{1936}
+{FISHER, R.~A. \emph{Iris}. UCI Machine Learning Repository, 1936.
+Dispon{\'\i}vel em: \url{https://archive.ics.uci.edu/dataset/53/iris}.}
+
+\bibitem{efron1979bootstrap}
+\abntrefinfo{Efron}{EFRON}{1979}
+{EFRON, B. Bootstrap methods: Another look at the jackknife.
+\emph{The Annals of Statistics}, v.~7, n.~1, jan. 1979.}
+
+\bibitem{breiman1996bagging}
+\abntrefinfo{Breiman}{BREIMAN}{1996}
+{BREIMAN, L. Bagging predictors.
+\emph{Machine Learning}, v.~24, n.~2, p. 123--140, ago. 1996.}
+
+\bibitem{ho1995random}
+\abntrefinfo{Ho}{HO}{1995}
+{HO, T.~K. Random decision forests. In:  \emph{Proceedings of 3rd International
+  Conference on Document Analysis and Recognition}. [S.l.]: IEEE Computer
+  Society Press, 1995. p. 278--282.}
+
+\bibitem{friedman2000additive}
+\abntrefinfo{Friedman, Hastie e Tibshirani}{FRIEDMAN; HASTIE; TIBSHIRANI}{2000}
+{FRIEDMAN, J.; HASTIE, T.; TIBSHIRANI, R. Additive logistic regression: a
+  statistical view of boosting (with discussion and a rejoinder by the
+  authors).
+\emph{The Annals of Statistics}, v.~28, n.~2, abr. 2000.}
+
+\bibitem{natekin2013gradient}
+\abntrefinfo{Natekin e Knoll}{NATEKIN; KNOLL}{2013}
+{NATEKIN, A.; KNOLL, A. Gradient boosting machines, a tutorial.
+\emph{Frontiers in Neurorobotics}, v.~7, 2013.}
+
+\bibitem{he2019gradient}
+\abntrefinfo{He et al.}{HE et al.}{2019}
+{HE, Z. et al. \emph{Gradient Boosting Machine: A Survey}. 2019.}
+
+\bibitem{ke2017lightgbm}
+\abntrefinfo{Ke et al.}{KE et al.}{2017}
+{KE, G. et al. {LightGBM}: A highly efficient gradient boosting decision tree.
+  In:  \emph{Neural Information Processing Systems}. [s.n.], 2017.
+  Dispon{\'\i}vel em: \url{https://api.semanticscholar.org/CorpusID:3815895}.}
+
+\bibitem{chen2016xgboost}
+\abntrefinfo{Chen e Guestrin}{CHEN; GUESTRIN}{2016}
+{CHEN, T.; GUESTRIN, C. {XGBoost}: A scalable tree boosting system. In:
+  \emph{Proceedings of the 22nd ACM SIGKDD International Conference on
+  Knowledge Discovery and Data Mining}. New York, NY, USA: ACM, 2016. p.
+  785--794.}
+
+\bibitem{schiara2023detailed}
+\abntrefinfo{Schiara e Paschoalini}{SCHIARA; PASCHOALINI}{2023}
+{SCHIARA, L. d.~S.; PASCHOALINI, A.~T. A detailed implementation of
+  multithreading and out-of-core computation to the conventional boundary
+  element algorithm with minimum code changes.
+\emph{Journal of the Brazilian Society of Mechanical Sciences and Engineering},
+  v.~45, n.~2, p.~114, fev. 2023.}
+
+\bibitem{palm1986warren}
+\abntrefinfo{Palm}{PALM}{1986}
+{PALM, G. Warren {McCulloch} and walter pitts: A logical calculus of the ideas
+  immanent in nervous activity. In:  \emph{Brain Theory}. Berlin, Heidelberg:
+  Springer Berlin Heidelberg, 1986. p. 229--230.}
+
+\bibitem{yang2016propositional}
+\abntrefinfo{Yang e V{\"a}{\"a}n{\"a}nen}{YANG; V{\"A}{\"A}N{\"A}NEN}{2016}
+{YANG, F.; V{\"A}{\"A}N{\"A}NEN, J. Propositional logics of dependence.
+\emph{Annals of Pure and Applied Logic}, v.~167, n.~7, p. 557--589, jul. 2016.}
+
+\bibitem{meyerbaese2014foundations}
+\abntrefinfo{Meyer-Baese e Schmid}{MEYER-BAESE; SCHMID}{2014}
+{MEYER-BAESE, A.; SCHMID, V. Foundations of neural networks. In:  \emph{Pattern
+  Recognition and Signal Analysis in Medical Imaging}. [S.l.]: Elsevier, 2014.
+  p. 197--243.}
+
+\bibitem{mouta2025automaterials}
+\abntrefinfo{Mouta}{MOUTA}{2025}
+{MOUTA, R. \emph{AutoMaterials}. 2025.
+  \url{https://github.com/r-mouta/automaterials}.
+Repositório no GitHub. Acesso em: 13 jul. 2026.}
+
+\bibitem{schaeffer2023machine}
+\abntrefinfo{Schaeffer et al.}{SCHAEFFER et al.}{2023}
+{SCHAEFFER, J. et al. Machine learning benchmarks for the classification of
+  equivalent circuit models from electrochemical impedance spectra.
+\emph{Journal of The Electrochemical Society}, v.~170, n.~6, p. 060512, jun.
+  2023.}
+
+\end{thebibliography}

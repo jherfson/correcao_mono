@@ -1,0 +1,44 @@
+\babel@toc {brazil}{}\relax 
+\babel@toc {brazil}{}\relax 
+\contentsline {figure}{\numberline {1}{\ignorespaces Corrente $i$ fluindo através de $R$, $L$ e $C$ em série.}}{22}{figure.2.1}%
+\contentsline {figure}{\numberline {2}{\ignorespaces Diagrama de fasores (esquerda) e as formas de ondas sinusoidais correspondente à tensão $v(t)$ e à corrente $i(t)$, relações dos componentes: $(A)$ resistor, $(B)$ capacitor e $(C)$ o indutor.}}{23}{figure.2.2}%
+\contentsline {figure}{\numberline {3}{\ignorespaces Diagrama de Nyquist de um resistor.}}{25}{figure.2.3}%
+\contentsline {figure}{\numberline {4}{\ignorespaces Diagrama de Nyquist de um capacitor.}}{26}{figure.2.4}%
+\contentsline {figure}{\numberline {5}{\ignorespaces Diagrama de Nyquist de um indutor ideal.}}{27}{figure.2.5}%
+\contentsline {figure}{\numberline {6}{\ignorespaces Representação de circuito RC paralelo.}}{28}{figure.2.6}%
+\contentsline {figure}{\numberline {7}{\ignorespaces Representação do diagrama de Nyquist do circuito RC.}}{30}{figure.2.7}%
+\contentsline {figure}{\numberline {8}{\ignorespaces Representação do circuito RC.}}{31}{figure.2.8}%
+\contentsline {figure}{\numberline {9}{\ignorespaces Diagrama com os tipos de aprendizado em \textit {Machine Learning}.}}{32}{figure.2.9}%
+\contentsline {figure}{\numberline {10}{\ignorespaces Árvore de decisão do conjunto de dados da íris.}}{35}{figure.2.10}%
+\contentsline {figure}{\numberline {11}{\ignorespaces Árvore de decisão do conjunto de dados da íris.}}{37}{figure.2.11}%
+\contentsline {figure}{\numberline {12}{\ignorespaces Representação da técnica \textit {bagging}, na qual são criados submodelos e, em seguida, são realizadas as predições.}}{38}{figure.2.12}%
+\contentsline {figure}{\numberline {13}{\ignorespaces Diagrama da estrutura do modelo RF.}}{39}{figure.2.13}%
+\contentsline {figure}{\numberline {14}{\ignorespaces Estrutura do Boosting}}{41}{figure.2.14}%
+\contentsline {figure}{\numberline {15}{\ignorespaces Método GB pega o ajuste inicial e seleciona o resíduo para gerar novo ajuste a partir dele.}}{42}{figure.2.15}%
+\contentsline {figure}{\numberline {16}{\ignorespaces Novo ajuste é gerado a partir do outro ajuste e obtido um novo resíduo.}}{42}{figure.2.16}%
+\contentsline {figure}{\numberline {17}{\ignorespaces Mais interação até que se chegue em um valor mínimo de erro possível.}}{43}{figure.2.17}%
+\contentsline {figure}{\numberline {18}{\ignorespaces Evolução da acurácia de treinamento e de validação ao longo das épocas de treinamento da rede neural convolucional.}}{60}{figure.3.18}%
+\contentsline {figure}{\numberline {19}{\ignorespaces Histórico consolidado de treinamento: perda e acurácia de treinamento e validação ao longo das épocas.}}{61}{figure.3.19}%
+\contentsline {figure}{\numberline {20}{\ignorespaces Matriz de confusão do modelo treinado, avaliada sobre o conjunto de teste. Os valores na diagonal principal representam os acertos do classificador para topogia de circuito equivalente.}}{63}{figure.3.20}%
+\contentsline {figure}{\numberline {21}{\ignorespaces Curva ROC por classe para o classificador RF. O AUC igual a 1,0 para todas as classes, exceto R\_{RQ} com AUC = 0,99, indicando excelente capacidade discriminativa do modelo.}}{66}{figure.3.21}%
+\contentsline {figure}{\numberline {22}{\ignorespaces Matriz de confusão RF sobre o conjunto de teste. Os valores na diagonal principalmente indicam os acertos do modelo para cada topologia}}{67}{figure.3.22}%
+\contentsline {figure}{\numberline {23}{\ignorespaces Relatório de classificação do RF, com precisão, recall e F1Score por classe.}}{68}{figure.3.23}%
+\contentsline {figure}{\numberline {24}{\ignorespaces Curvas ROC por classe para o KNN. Os menores AUCs foram registrados para R\_{RQ} (AUC = 0,95), RQ (AUC = 0,98) e RQRQ\_{RQ} (AUC = 0,98), refletindo maior dificuldade de separação nessas classes.}}{69}{figure.3.24}%
+\contentsline {figure}{\numberline {25}{\ignorespaces Matriz de confusão do KNN sobre o conjunto de teste. A classe R\_{RQ} apresentou o maior número de erros absolutos, com 209 amostras classificadas incorretamente como R\_{RQ}.}}{70}{figure.3.25}%
+\contentsline {figure}{\numberline {26}{\ignorespaces Relatório de classificação do KNN. O menor F1-score foi observado na classe R\_{RQ} (0,824), e os maiores em R\_{L\_RQ\_RQ} (0,946) e R\_{RQ} (0,948).}}{71}{figure.3.26}%
+\contentsline {figure}{\numberline {27}{\ignorespaces Curva ROC da árvore de decisão. Os menores AUCs foram observados em R\_{RQ} (AUC = 0,95), RQ (AUC = 0,97), RQRQ\_{RQ} (AUC = 0,97) e RQ\_{RQ} (AUC = 0,97).}}{72}{figure.3.27}%
+\contentsline {figure}{\numberline {28}{\ignorespaces Matriz de confusão da árvore de decisão sobre o conjunto de teste. A classe R\_RQ apresentou 171 erros, com maior confusão com RQ\_RQ (77 amostras) e R\_L\_RQ (35 amostras).}}{73}{figure.3.28}%
+\contentsline {figure}{\numberline {29}{\ignorespaces Relatório de classificação da árvore de decisão. Os menores F1-score foram registrados em R\_RQ (0.923) e RQ\_RQ (0.927), enquanto RQRQ\_RQ\_Q ( F1 0.980) e R\_L\_RQ\_RQ (f1 0.978) obtiveram os melhores resultados.}}{74}{figure.3.29}%
+\contentsline {figure}{\numberline {30}{\ignorespaces Matriz de confusão a), relatório de classificação b) e curva ROC c) de regressão logística. O desempenho próximo ao aceso de (~9.09\% para 11 classes) indica que os espectros não são linearmente separáveis no espaço de atributos utilizado.}}{75}{figure.3.30}%
+\contentsline {figure}{\numberline {31}{\ignorespaces Matriz de confusão d), relatório de classificação e) e curva ROC f) do gaussian Naive Bayess. O desempenho ligeiramente acima do acaso (15.85\%) indica suposição de independência antre atributos é fortemente violada nos EIS. }}{76}{figure.3.31}%
+\contentsline {figure}{\numberline {32}{\ignorespaces Matrix de confusão g), relatório de classificação h) e a curva ROC i) do SVM. Além do baixo desempenho (20.91\%), o modelo demandou aproximadamente de 5 horas e 54 minutos de treinamento, tornando-o inviável para este problema.}}{77}{figure.3.32}%
+\contentsline {figure}{\numberline {33}{\ignorespaces Curva ROC por classe para XGB AUC=1.0 para todas as 11 topologias, indicando capacidade discriminativa perfeita do modelo no espaço de pontuações.}}{78}{figure.3.33}%
+\contentsline {figure}{\numberline {34}{\ignorespaces Matriz de confusão do XGB sobre o conjunto de teste. As maiores confusões ocorreram entre RQRQ\_{RQ} e RQRQ\_{Q} (59 amostras) e entre RQ\_{RQ}.}}{79}{figure.3.34}%
+\contentsline {figure}{\numberline {35}{\ignorespaces Relatório de classificação do XGB. Os melhores resultados foram obtidos em R\_{L\_RQ} (precisão 0,995; F1-score 0,985) e RC (recall 0,993; F1-score 0,982). Os menores F1-scores foram registrados em RQ\_{RQ} (0,946) e RQRQ\_{RQ} (0,946).}}{80}{figure.3.35}%
+\contentsline {figure}{\numberline {36}{\ignorespaces Matrix de confusão j), relatório de classificação k) e curva ROC l) do GB. O modelo apresentou acurácia de 86.29\% com tempo de treinamento superior a 37 horas confirmando sua inviabilidade prática frente ao XGB e ao LightGBM.}}{81}{figure.3.36}%
+\contentsline {figure}{\numberline {37}{\ignorespaces Matriz de confusão m), relatório de classificação n) e curva ROC o) do SGD. Com acurácia de 17,15\%, o modelo confirmou o padrão observado nos demais classificadores lineares. Incapacidade de aprender fronteiras de decisão não lineares nos EIS.}}{82}{figure.3.37}%
+\contentsline {figure}{\numberline {38}{\ignorespaces Curva ROC por classe para o LGBM. AUC = 1.0 para todos as 11 topologias, resultado idêntico ao XGB, confirmando a capacidade discriminativa perfeita do modelo.}}{83}{figure.3.38}%
+\contentsline {figure}{\numberline {39}{\ignorespaces Matriz de confusão do LGBM sobre o conjunto de teste. As confusões mais expressivas ocorreram entre RQRQ\_{RQ} e RQRQ\_{RQ\_Q} (62 amostras) e entre RQ\_{RQ} e RQRQ\_{RQ} (67 amostras). A classe R\_{RQ} apresentou 119 erros totais, o maior valor entre as classes para este modelo.}}{84}{figure.3.39}%
+\contentsline {figure}{\numberline {40}{\ignorespaces Relatório de classificação do LGBM. Os melhores resultados foram obtidos em $R\_{L\_RQ}$ (precisão 0,996; F1-score 0,994) e RC (recall 0,997; F1-score 0,987). O menor F1-score foi registrado em RQRQ\_{RQ} (0,943), seguido de RQ\_{RQ} (0,950).}}{85}{figure.3.40}%
+\contentsline {figure}{\numberline {41}{\ignorespaces Acurácia vs. Validação cruzada. Mostra claramente os dois grupos (alta/baixa performance) e a linha de referência da CNN.}}{87}{figure.3.41}%
+\contentsline {figure}{\numberline {42}{\ignorespaces F1-score por topologia de circuito equivalente para os cinco melhores modelos avaliados (LBGM, RF, XGB, Árvore de decisão e KNN) e linha de referência da CNN (F1 médio $\approx $ 0.709). As regiões sombreadas em vermelho destacam as topologias RQ\_RQ, R\_RQ que apresentaram os menores F1-score de forma consistente entre todos os modelos.}}{88}{figure.3.42}%

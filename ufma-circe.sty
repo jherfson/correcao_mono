@@ -1,0 +1,196 @@
+%% ufma-circe.sty
+%%%% LaTeX macro for UFMA ABNT template
+%%%% 
+\NeedsTeXFormat{LaTeX2e}
+\ProvidesPackage{ufma-circe}[2024/01/22 rV3]
+% ---
+% Pacotes básicos 
+% ---
+\usepackage{lmodern}			% Usa a fonte Latin Modern			
+\usepackage[T1]{fontenc}		% Selecao de codigos de fonte.
+\usepackage[utf8]{inputenc}		% Codificação do documento (conversão automática dos acentos)
+\usepackage{indentfirst}		% Indenta o primeiro parágrafo de cada seção.
+\usepackage{color}				% Controle das cores
+\usepackage{graphicx}			% Inclusão de gráficos
+\usepackage{microtype} 			% para melhorias de justificação
+% ---
+		
+% ---
+% Pacotes adicionais, usados apenas no âmbito do Modelo Canônico do abnteX2
+% ---
+\usepackage{lipsum}				% para geração de dummy text
+\usepackage{ragged2e}			% justifying etc
+\usepackage{geometry}
+% ---
+\usepackage{amsmath}
+\usepackage{amsfonts}
+
+% ---
+% Pacotes de citações
+% ---
+\usepackage[brazilian,hyperpageref]{backref}	 % Paginas com as citações na bibl
+\usepackage[num]{abntex2cite}% Citações padrão ABNT
+
+% ------------------------------
+% Pacote de fonte e fonte hacks
+% ------------------------------
+\usepackage{times} %times new roman 
+%\setmainfont{Arial} %ony if compiling with XeTeX/LuaTeX (fontspec)
+
+%% "arial" hack compiling with TeXLive
+% \usepackage{helvet}
+% \renewcommand{\familydefault}{\sfdefault}
+
+
+\renewcommand{\ABNTEXchapterfont}{\fontseries{b}\selectfont}
+\renewcommand{\ABNTEXchapterfontsize}{\normalsize}
+\renewcommand{\ABNTEXsectionfontsize}{\normalsize}
+\renewcommand{\ABNTEXsubsectionfont}{}
+
+%% Fonte do sumário: mude aqui
+%----
+\renewcommand{\cftsectionfont}{\bfseries}
+\renewcommand{\cftsectionpagefont}{\cftsectionfont}
+\renewcommand{\cftsubsectionfont}{\normalfont\normalsize}
+\renewcommand{\cftsubsectionpagefont}{\cftsubsectionfont}
+\renewcommand{\cftsubsubsectionfont}{\normalfont\normalsize}
+\renewcommand{\cftsubsubsectionpagefont}{\cftsubsubsectionfont}
+
+% ---------------------------------------
+% Configurações da CAPA e FOLHA DE ROSTO 
+% ---------------------------------------
+% Adiciona mais um comando - curso 
+\providecommand{\imprimircurso}{}
+\newcommand{\curso}[1]{\renewcommand{\imprimircurso}{#1}}
+
+%% A ABNT NBR 14724:2011 recomenda "fonte tamanho 12 para todo o trabalho, inclusive capa, excetuando-se
+% citações com mais de três linhas, notas de rodapé, paginação, dados internacionais de catalogação-
+% na-publicação, legendas e fontes das ilustrações e das tabelas, que devem ser em tamanho menor e uniforme."
+
+% Ou seja, os elementos da capa e folha de rosto, por exemplo, podem ter fontes de tamanhos diferentes.
+% Escolheu-se preservar o tamanho 12 para todo o trabalho conforme recomenda a norma. 
+% Para mudar tamanho e outras características da fonte da capa e folha de rosto, modificar abaixo.
+
+% ---- CAPA
+\renewcommand{\imprimircapa}{%
+  \begin{capa}%
+    \center
+    \includegraphics[scale=.25]{ufma-logo.png}\\
+    \large\MakeUppercase{Universidade Federal do Maranhão -- UFMA}\\
+    \large\MakeUppercase\imprimircurso \\ \vspace{3cm}
+
+    \ABNTEXchapterfont\normalfont\large\MakeUppercase\imprimirautor
+    \vspace{-2cm}
+    \vfill
+    \begin{center}
+    \ABNTEXchapterfont\bfseries\large\MakeUppercase\imprimirtitulo
+    \end{center}
+    \vfill
+    
+    \normalfont\normalsize\MakeUppercase\imprimirlocal
+
+    \normalfont\normalsize\imprimirdata
+    
+    \vspace*{1cm}
+  \end{capa}
+}
+% ----
+
+% ---- FOLHA DE ROSTO 
+\makeatletter
+\renewcommand{\folhaderostocontent}{
+  \begin{center}
+
+    %\vspace*{1cm}
+    {\normalsize\MakeUppercase\imprimirautor}
+	
+    \vspace*{\fill}\vspace*{\fill}
+    \begin{center}
+      \large\bfseries\MakeUppercase\imprimirtitulo
+    \end{center}
+    \vspace*{\fill}
+	
+    \abntex@ifnotempty{\imprimirpreambulo}{%
+      \hspace{.45\textwidth}
+      \begin{minipage}{.5\textwidth}
+      	\SingleSpacing
+         \imprimirpreambulo
+       \end{minipage}%
+       \vspace*{\fill}
+    }%
+
+    %{\abntex@ifnotempty{\imprimirinstituicao}{\imprimirinstituicao\vspace*{\fill}}}
+
+    {\imprimirorientadorRotulo~\imprimirorientador\par}
+    \abntex@ifnotempty{\imprimircoorientador}{%
+       {\imprimircoorientadorRotulo~\imprimircoorientador}%
+    }%
+    \vspace*{\fill}
+
+    {\imprimirlocal}
+    \par
+    {\imprimirdata}
+    \vspace*{1cm}
+
+  \end{center}
+}
+\makeatother
+
+% --------------------------- 
+
+
+% --------------------------------
+% Configurações do pacote backref
+% ---------------------------------
+% Usado sem a opção hyperpageref de backref
+\renewcommand{\backrefpagesname}{Citado na(s) página(s):~}
+% Texto padrão antes do número das páginas
+\renewcommand{\backref}{}
+% Define os textos da citação
+\renewcommand*{\backrefalt}[4]{
+	\ifcase #1 %
+		Nenhuma citação no texto.%
+	\or
+		Citado na página #2.%
+	\else
+		Citado #1 vezes nas páginas #2.%
+	\fi}%
+% ---
+
+% --------------------------------------------------------
+% Posiciona figuras e tabelas no topo da página quando adicionadas sozinhas
+% em um página em branco. Ver https://github.com/abntex/abntex2/issues/170
+\makeatletter
+\setlength{\@fptop}{5pt} % Set distance from top of page to first float
+\makeatother
+% ---
+
+% -------------------------------------------------------
+% Possibilita criação de Quadros e Lista de quadros.
+% Ver https://github.com/abntex/abntex2/issues/176
+%
+\newcommand{\quadroname}{Quadro}
+\newcommand{\listofquadrosname}{Lista de quadros}
+
+\newfloat[chapter]{quadro}{loq}{\quadroname}
+\newlistof{listofquadros}{loq}{\listofquadrosname}
+\newlistentry{quadro}{loq}{0}
+
+% configurações para atender às regras da ABNT
+\setfloatadjustment{quadro}{\centering}
+\counterwithout{quadro}{chapter}
+\renewcommand{\cftquadroname}{\quadroname\space} 
+\renewcommand*{\cftquadroaftersnum}{\hfill--\hfill}
+
+\setfloatlocations{quadro}{hbtp} % Ver https://github.com/abntex/abntex2/issues/176
+% ---
+
+% ---------------------------------------
+% Espaçamentos entre linhas e parágrafos 
+% ---------------------------------------
+
+% O tamanho do parágrafo é dado por:
+\setlength{\parindent}{1.5cm}
+
+% Controle do espaçamento entre um parágrafo e outro:
+\setlength{\parskip}{0.2cm}  % tente também \onelineskip
