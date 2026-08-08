@@ -13,11 +13,10 @@ de EVs corresponderam a aproximadamente 14\% de carros vendidos de todo o mundo 
 uma maior utilização e aceitação no mercado, as baterias precisarão, entre outros fatores, ser
 mais seguras \cite{olivetti2017lithium,armand2008building}. A segurança das baterias pode, em princípio, ser melhorada pela
 substituição dos eletrólitos líquidos por eletrólitos sólidos ou pelo uso de revestimento dos
-cátodos. Os requerimentos básicos tanto para eletrólitos quando para revestimento de cátodos
+cátodos. Um dos requerimentos básicos tanto para eletrólitos quando para revestimento de cátodos
 de baterias e íons de lítio (LIBs, do inglês \textit{lithium-ion batteries}) é ter condutividade iônica da ordem
 de $1\,\mathrm{mS/cm}$. A determinação experimental dessa propriedade requer o ajuste de espectros de
-impedância eletroquímica (EIS, do inglês \textit{Electrochemical
-Impedance Spectroscopy}) usando um circuito equivalente como modelo \cite{sinfronio2018effect,santos2018chitosan}, que
+impedância (IS, do inglês \textit{Impedance Spectroscopy}) usando um circuito equivalente como modelo \cite{sinfronio2018effect,santos2018chitosan}, que
 consiste em componentes como resistores, capacitores, indutores e outros elementos.
 Dependendo da qualidade do circuito e da experiência do pesquisador, pode se tornar uma
 tarefa difícil identificar o modelo do circuito, além de consumo bastante tempo nessa
@@ -29,25 +28,20 @@ impedância equivalente.
 
 \chapter{Fundamentação Teórica}
 
-\section{Espectro de Impedância Eletroquímica}
+\section{Espectroscopia de Impedância}
 
-A espectroscopia de impedância eletroquímica é uma técnica utilizada para estudar sistemas eletroquímicos em
-equilíbrio ou estado estacionário. Ela consiste na aplicação de um sinal senoidal (diferença de
+A espectroscopia de impedância (ES) é uma técnica utilizada para estudar, dentre outros sistemas, sólidos cerâmicos, monocristais
+ em equilíbrio ou estado estacionário. Ela consiste na aplicação de um sinal senoidal (diferença de
 potencial ou uma corrente alternada) em uma ampla faixa de frequências, perturbando o
 sistema, e em seguida, monitorando a resposta senoidal do sistema em relação à perturbação
-aplicada. Ademais, pode ser usada para analisar processos eletroquímicos em sistemas,
-principalmente em interfaces eletrodo-eletrólito. A EIS é utilizada em várias áreas da ciência e
-engenharia. E suas principais aplicações são em corrosão, em estudo de caracterização de
-eletrodos eletroquímicos, incluindo condutividade eletrônica, monitoramento de reações
-eletroquímicas, biossensores eletroquímicos e entre outras inúmeras aplicações \cite{lazanas2023electrochemical}.
+aplicada. Ademais, pode ser usada para analisar processos em interfaces eletrodo-eletrólito. 
 
-Dessa forma, ao realizar a transição de um circuito em corrente continua (DC) para um circuito
-em corrente alternada (AC), é necessário expandir a noção de resistência como um parâmetro
-exclusivo dos resistores. Além dos resistores (R), os capacitores (C) e indutores (L) também oferecem
-resistência ao fluxo de corrente alternada, denominada de resistência reativa ou reatância. Sendo assim, a principal diferença entre resistência e reatância, em termos de dissipação de energia, é que em
-uma resistência a energia é dissipada apenas na forma de calor, enquanto em uma reatância a
-energia é periodicamente armazenada em campos elétricos e magnéticos, sem perdas de calor.
-A combinação de resistências é reatância é conhecida como impedância (Z). A impedância é
+Ao realizar a transição de um circuito em corrente continua (DC) para um circuito
+em corrente alternada (AC), é necessário levar em conta que, além de os resistores (R) oferencerem resistência à passagem de corrente
+os capacitores (C) e indutores (L) também são responsáveis por uma oposição à variação da corrente alternada, denominada reatância. 
+A principal diferença entre resistência e reatância, em termos de dissipação de energia, é que a resistência está associada à dissipação de energia na forma de calor, 
+enquanto a reatância está associada ao armazenamento periódico de energia em campos elétricos e magnéticos, sem perdas de calor.
+A combinação de resistências e reatância é conhecida como impedância (Z) que é
 calculada analisando a tensão em cada um dos componentes em série, como ilustrado na Figura~\ref{figura1}. Nessa análise, consideramos que a corrente que passa por eles segue a expressão $i = I \cos(\omega t)$, na qual $i$ representa o valor instantâneo da corrente em um determinado instante $t$.
 
 As tensões instantâneas $v_{R}$, $v_{L}$ e $v_{C}$ em $R$, $L$ e $C$ são expressas, respectivamente,
