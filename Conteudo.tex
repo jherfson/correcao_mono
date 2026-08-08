@@ -510,7 +510,8 @@ Dados um conjunto de vetores de treinamento $x_i \in \mathbb{R}^n$, onde $i = 1,
     Q_m^{direita}(\theta) = Q_m \setminus Q_m^{esquerda}(\theta).
     \label{eq:34}
 \end{equation}
-A qualidade de uma candidata dividida no nó $m$ é calculada usando uma função de impureza ou função de perda $H$. A escolha da função depende da tarefa em questão, que pode ser classificação ou regressão. A métrica de qualidade $G(Q_m, \theta)$ é definida como:
+
+A qualidade de cada divisão candidata é avaliada pela impureza ponderada dos dois nós filhos, calculada por uma função $H$, como o índice de Gini ou a entropia. A melhor divisão é aquela que minimiza essa impureza pnderada ou, equivalentemente, maximiza a redução de impureza. A escolha da função depende da tarefa em questão, que pode ser classificação ou regressão. A métrica de qualidade $G(Q_m, \theta)$ é definida como:
 
 \begin{equation}
     G(Q_m, \theta) = \frac{n_m^{esquerda}}{n_m} H\left(Q_m^{esquerda}(\theta)\right) + \frac{n_m^{direita}}{n_m} H\left(Q_m^{direita}(\theta)\right).
@@ -524,13 +525,13 @@ O objetivo é selecionar os parâmetros que minimizam a impureza, logo
 \end{equation}
 Esse processo é repetido para os subconjuntos $Q_m^{esquerda}(\theta^*)$ e a $Q_m^{direita}(\theta^*)$ até que a profundidade máxima permitida seja alcançada, $n_m < min_{amostras}$ ou $n_m = 1$.
 
-Nesse contexto, existe um parâmetro chamado critério de classificação, onde se um alvo for um resultado de classificação pode assumir valores $0, 1, \ldots, k-1$, para o nó $m$, deixar
+Considere um problema de classificação com $K$ classes, identificadas por $k=0, 1, ..., K-1$. Para cada nó $m$, a proporção de amostras pertencentes à classe $k$ é dada por:
 
 \begin{equation}
     p_{mk} = \frac{1}{n_m} \sum_{y \in Q_m} I(y = k)
     \label{eq:37}
 \end{equation}
-ser um alvo de observações de classe $k$ no nó $m$. Se $m$ é um nó terminal, o método estima\textit{predict\_proba} a probabilidade correspondente, pois esta região é definida como $p_{mk}$. As medidas comuns de impureza são as respectivamente Gini, dada pela equação \eqref{eq:38}, e Entropria, equação \eqref{eq:39}:
+em que $l(y_i = k)$ vale 1 quando a amostra $i$ pertence à classe $k$ e $O$ caso contrário. Se $m$ for um nó terminal essas proporções constituem as probabilidades estimadas retornadas pelo método $predict_proba$. A classe prevista é aquela que apresenta o maior valor de $p_mk$. As medidas comuns de impureza são as respectivamente Gini, dada pela equação \eqref{eq:38}, e Entropia, equação \eqref{eq:39}:
 \begin{equation}
     H(Q_m) = \sum_{k} p_{mk}(1 - p_{mk}),
     \label{eq:38}
@@ -540,7 +541,7 @@ ser um alvo de observações de classe $k$ no nó $m$. Se $m$ é um nó terminal
     H(Q_m) = \sum_{k} p_{mk} \log(p_{mk}).
     \label{eq:39}
 \end{equation}
-Vale ressaltar que o conceito de entropia se originou como uma grandeza termodinâmica, na qual mede o grau de liberdade como uma medida de desordem molecular.
+Vale ressaltar que o conceito de entropia se originou como uma grandeza termodinâmica, entropia é uma medida estatística da multiplicidade de microestados, ou seja, a contagem de todas as maneiras pelas quais as partes um sistema podem se organizar para produzir o mesmo macroestado.
 \subsubsection{\textit{Ensemble learning}}
 \textit{Ensemble learning} ou (aprendizagem conjunto) é um método que consiste em combinar
 as previsões de vários modelos individuais para poder generaliza-los e chegar em um modelo
@@ -548,7 +549,7 @@ finais mais preciso, como podemos ver na Figura~\ref{figura11}. No ensemble exis
 \textit{bagging} e o \textit{boosting}.
 \begin{figure}[htbp]
     \centering
-    \caption{Árvore de decisão do conjunto de dados da íris.}
+    \caption{Representação dos modelos de ensemble.}
     \includegraphics[width=0.5\textwidth]{Figuras/representação do ensemble.png}
     \legend{Fonte: Própria autoria.}
     \label{figura11}
