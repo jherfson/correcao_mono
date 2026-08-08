@@ -424,7 +424,7 @@ ele analisa as características dos novos exemplos e atribui uma classe com base
 conhecimento adquirido durante o treinamento. Por fim, a etapa final é avaliação do
 desempenho do modelo. 
 
-A quantidade de um modelo de classificação é medida por meio de
+A qualidade de um modelo de classificação é medida por meio de
 métricas como precisão, recall, f1-score, matriz de confusão e entre outras. Essa métricas
 desempenham um papel fundamental ao determinar quão bem o modelo realiza suas previsões.
 Além de todos esses processos, também precisamos avaliar se o modelo está sofrendo de
@@ -445,8 +445,9 @@ fornecido.
 
 Essa técnica é uma representação gráfica que visa encontrar todas as soluções
 possíveis para um problema ou decisão, com base em condições predefinidas. Podemos ver um
-exemplo de como a árvore de decisão funciona, utilizando o conjunto de dados de íris. O termo
-árvore de decisão se justifica pelo fato de ela começar com um nó raiz, semelhante ao tronco
+exemplo de como a árvore de decisão funciona, utilizando o conjunto de dados de íris. 
+
+O termo árvore de decisão se justifica pelo fato de ela começar com um nó raiz, semelhante ao tronco
 de uma árvore, que se ramifica em outros nós e cria uma estrutura semelhante a galhos de
 árvore. 
 
@@ -454,12 +455,10 @@ Para construir uma árvore de decisão, utilizamos o algoritmo CART, que signifi
 algoritmo de árvore de classificação e regressão. Na Figura~\ref{figura10}, temos uma predição usando o
 conjunto de dados de íris \cite{fisher1936iris}. A classificação das flores
 de íris inicia-se no nó raiz, situado na profundidade 0, no topo da árvore de decisão. Neste nó,
-a primeira pergunta feita é: se o comprimento da pétala da flor é inferior a 2.45 cm? Se a resposta
-for afirmativa, prosseguimos para o nó filho esquerdo na profundidade 1, à esquerda. Este nó é
+a primeira pergunta feita é: o comprimento da pétala da flor é inferior a 2.45 cm? Se a resposta
+for afirmativa, prosseguimos para o nó filho esquerdo na profundidade 1. Este nó é
 uma folha, o que significa que não há mais perguntas a serem feitas. A árvore de decisão prevê
-que a flor é uma íris setosa.
-
-Por outro lado, se o comprimento da pétala for superior a 2.45 cm,
+que a flor é uma íris setosa. Por outro lado, se o comprimento da pétala for superior a 2.45 cm,
 descemos para nó filho direito da raiz, também na profundidade 1, à direita. Este não é um nó
 folha, portanto, ele faz uma nova pergunta: a largura da pétala é inferior a 1.75 cm? Se a
 resposta for afirmativa, é provável que a flor seja uma íris versicolor profundidade 2, à esquerda.
@@ -500,7 +499,7 @@ garantir uma solução globalmente ideal. Além disso, algumas questões, como o
 são difíceis de aprender com árvores de decisão. Por fim, as árvores de decisão podem criar árvores tendenciosas se algumas classes dominarem. Portanto, é aconselhável equilibrar o
 conjunto de dados antes de ajustar a árvore de decisão.
 
-Dados um conjunto de vetores de treinamento $x_i \in \mathbb{R}^n$, onde $i = 1, \ldots, l$ é um vetor de rótulos $y \in \mathbb{R}^l$, uma árvore de decisão particiona de forma recursiva o espaço de características para agrupar amostras com rótulos semelhantes em conjunto. Cada nó da árvore, representado por $Q_m$, contém $n_m$ amostras. Para cada possível candidato se divide $\theta = (j, t_m)$, que consiste em um recurso $j$ e o limiar $t_m$, os dados são divididos em dois subconjuntos $Q_m^{esquerdo}(\theta)$ e a $Q_m^{direito}(\theta)$.
+Dados um conjunto de vetores de treinamento $x_i \in \mathbb{R}^n$, onde $i = 1, \ldots, l$ é um vetor de rótulos $y \in \mathbb{R}^l$, uma árvore de decisão particiona de forma recursiva o espaço de características para agrupar amostras com rótulos semelhantes em conjunto.  Cada nó $m$ contém um conjunto $Q_m$ de $n_m = Q_ml$ amostras de treinamento. Cada divisão candidata é representada por $\theta=(j,t_m)$, em que $j$ identifica um atributo e $t_m$ é o limiar aplicado a esse atributo. A divisão separa as amostras dois subconjuntos:   
 
 \begin{equation}
     Q_m^{esquerda}(\theta) = \{(x,y) \mid x_j \leq t_m\},

@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.29 (TeX Live 2026) (preloaded format=pdflatex 2026.8.2)  8 AUG 2026 19:34
+This is pdfTeX, Version 3.141592653-2.6-1.40.29 (TeX Live 2026) (preloaded format=pdflatex 2026.8.2)  8 AUG 2026 20:14
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1629,15 +1629,15 @@ Underfull \vbox (badness 1742) has occurred while \output is active []
 
  [31]
 
-LaTeX Warning: Reference `figura10' on page 32 undefined on input line 454.
+LaTeX Warning: Reference `figura10' on page 32 undefined on input line 455.
 
 
-LaTeX Warning: Citation `fisher1936iris' on page 32 undefined on input line 455
+LaTeX Warning: Citation `fisher1936iris' on page 32 undefined on input line 456
 .
 
 
 LaTeX Warning: Citation `geron2017handson' on page 32 undefined on input line 4
-66.
+65.
 
 <Figuras/arvore de decisão do conjunto de dados da íris..png, id=250, 383.432
 5pt x 308.15125pt>
@@ -1645,7 +1645,7 @@ File: Figuras/arvore de decisão do conjunto de dados da íris..png Graphic fil
 e (type png)
 <use Figuras/arvore de decisão do conjunto de dados da íris..png>
 Package pdftex.def Info: Figuras/arvore de decisão do conjunto de dados da ír
-is..png  used on input line 471.
+is..png  used on input line 470.
 (pdftex.def)             Requested size: 209.12683pt x 168.06839pt.
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
@@ -1655,31 +1655,31 @@ Underfull \vbox (badness 10000) has occurred while \output is active []
 
  [33 <./Figuras/arvore de decisão do conjunto de dados da íris..png>]
 
-LaTeX Warning: Reference `eq:38' on page 34 undefined on input line 534.
+LaTeX Warning: Reference `eq:38' on page 34 undefined on input line 533.
 
 
-LaTeX Warning: Reference `eq:39' on page 34 undefined on input line 534.
+LaTeX Warning: Reference `eq:39' on page 34 undefined on input line 533.
 
 [34]
 
-LaTeX Warning: Reference `figura11' on page 35 undefined on input line 548.
+LaTeX Warning: Reference `figura11' on page 35 undefined on input line 547.
 
 <Figuras/representação do ensemble.png, id=270, 503.8825pt x 349.305pt>
 File: Figuras/representação do ensemble.png Graphic file (type png)
 <use Figuras/representação do ensemble.png>
 Package pdftex.def Info: Figuras/representação do ensemble.png  used on input
- line 553.
+ line 552.
 (pdftex.def)             Requested size: 209.12683pt x 144.96953pt.
 
 LaTeX Warning: Citation `efron1979bootstrap' on page 35 undefined on input line
- 560.
+ 559.
 
 
 LaTeX Warning: Citation `breiman1996bagging' on page 35 undefined on input line
- 560.
+ 559.
 
 
-LaTeX Warning: Reference `figura12' on page 35 undefined on input line 564.
+LaTeX Warning: Reference `figura12' on page 35 undefined on input line 563.
 
 [35 <./Figuras/representação do ensemble.png>]
 <Figuras/representação da técnica bagging. São criados submodelos em seguid
@@ -1690,45 +1690,45 @@ eguidos são realizadas prediçõe.png Graphic file (type png)
 guidos são realizadas prediçõe.png>
 Package pdftex.def Info: Figuras/representação da técnica bagging. São cria
 dos submodelos em seguidos são realizadas prediçõe.png  used on input line 5
-74.
+73.
 (pdftex.def)             Requested size: 334.60422pt x 159.40413pt.
 
 
-LaTeX Warning: Citation `ho1995random' on page 36 undefined on input line 596.
+LaTeX Warning: Citation `ho1995random' on page 36 undefined on input line 595.
 
 [36 <./Figuras/representação da técnica bagging. São criados submodelos em 
 seguidos são realizadas prediçõe.png>]
 
-LaTeX Warning: Reference `eq:38' on page 37 undefined on input line 600.
+LaTeX Warning: Reference `eq:38' on page 37 undefined on input line 599.
 
 
-LaTeX Warning: Reference `eq:39' on page 37 undefined on input line 600.
+LaTeX Warning: Reference `eq:39' on page 37 undefined on input line 599.
 
 
-LaTeX Warning: Reference `figura13' on page 37 undefined on input line 603.
+LaTeX Warning: Reference `figura13' on page 37 undefined on input line 602.
 
 <Figuras/diagrama da estrutura do modelo RF.png, id=289, 690.58pt x 458.71375pt
 >
 File: Figuras/diagrama da estrutura do modelo RF.png Graphic file (type png)
 <use Figuras/diagrama da estrutura do modelo RF.png>
 Package pdftex.def Info: Figuras/diagrama da estrutura do modelo RF.png  used o
-n input line 607.
+n input line 606.
 (pdftex.def)             Requested size: 334.60422pt x 222.25891pt.
 [37 <./Figuras/diagrama da estrutura do modelo RF.png>]
 LaTeX Font Info:    Trying to load font information for TS1+ptm on input line 6
-14.
+13.
 
 (c:/texlive/2026/texmf-dist/tex/latex/psnfss/ts1ptm.fd
 File: ts1ptm.fd 2001/06/04 font definitions for TS1/ptm.
 )
 
-LaTeX Warning: Reference `figura14' on page 38 undefined on input line 633.
+LaTeX Warning: Reference `figura14' on page 38 undefined on input line 632.
 
 <Figuras/estrutura do Boosting.png, id=298, 529.98pt x 442.65375pt>
 File: Figuras/estrutura do Boosting.png Graphic file (type png)
 <use Figuras/estrutura do Boosting.png>
 Package pdftex.def Info: Figuras/estrutura do Boosting.png  used on input line 
-639.
+638.
 (pdftex.def)             Requested size: 334.60422pt x 279.47446pt.
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
@@ -1736,18 +1736,18 @@ Underfull \vbox (badness 10000) has occurred while \output is active []
  [38]
 
 LaTeX Warning: Citation `friedman2000additive' on page 39 undefined on input li
-ne 657.
+ne 656.
 
 
 LaTeX Warning: Citation `natekin2013gradient' on page 39 undefined on input lin
-e 657.
+e 656.
 
 
-LaTeX Warning: Citation `he2019gradient' on page 39 undefined on input line 657
+LaTeX Warning: Citation `he2019gradient' on page 39 undefined on input line 656
 .
 
 
-LaTeX Warning: Reference `figura15' on page 39 undefined on input line 659.
+LaTeX Warning: Reference `figura15' on page 39 undefined on input line 658.
 
 <Figuras/método pega o ajuste inicial e seleciona o resíduo para gerar novo a
 juste a partir dele.png, id=304, 486.81876pt x 137.51375pt>
@@ -1756,7 +1756,7 @@ ovo ajuste a partir dele.png Graphic file (type png)
 <use Figuras/método pega o ajuste inicial e seleciona o resíduo para gerar no
 vo ajuste a partir dele.png>
 Package pdftex.def Info: Figuras/método pega o ajuste inicial e seleciona o re
-síduo para gerar novo ajuste a partir dele.png  used on input line 664.
+síduo para gerar novo ajuste a partir dele.png  used on input line 663.
 (pdftex.def)             Requested size: 334.60422pt x 94.51738pt.
 <Figuras/novo ajuste é gerado a partir do outro ajuste, e obtendo um novo res�
 �duo.png, id=305, 949.5475pt x 289.08pt>
@@ -1765,7 +1765,7 @@ File: Figuras/novo ajuste é gerado a partir do outro ajuste, e obtendo um novo
 <use Figuras/novo ajuste é gerado a partir do outro ajuste, e obtendo um novo 
 resíduo.png>
 Package pdftex.def Info: Figuras/novo ajuste é gerado a partir do outro ajuste
-, e obtendo um novo resíduo.png  used on input line 673.
+, e obtendo um novo resíduo.png  used on input line 672.
 (pdftex.def)             Requested size: 334.60422pt x 101.86763pt.
 
 Underfull \vbox (badness 2229) has occurred while \output is active []
@@ -1778,7 +1778,7 @@ ossível.png Graphic file (type png)
 <use Figuras/mais interação até que se chegue em um valor mínimo de erro po
 ssível.png>
 Package pdftex.def Info: Figuras/mais interação até que se chegue em um valo
-r mínimo de erro possível.png  used on input line 682.
+r mínimo de erro possível.png  used on input line 681.
 (pdftex.def)             Requested size: 334.60422pt x 106.07796pt.
 
 Underfull \vbox (badness 3861) has occurred while \output is active []
@@ -1787,60 +1787,60 @@ Underfull \vbox (badness 3861) has occurred while \output is active []
  novo ajuste a partir dele.png> <./Figuras/novo ajuste é gerado a partir do ou
 tro ajuste, e obtendo um novo resíduo.png>]
 
-LaTeX Warning: Citation `ke2017lightgbm' on page 41 undefined on input line 708
+LaTeX Warning: Citation `ke2017lightgbm' on page 41 undefined on input line 707
 .
 
 [41 <./Figuras/mais interação até que se chegue em um valor mínimo de erro 
 possível.png>]
 
 LaTeX Warning: Citation `chen2016xgboost' on page 42 undefined on input line 72
-1.
+0.
 
 
 LaTeX Warning: Citation `schiara2023detailed' on page 42 undefined on input lin
-e 751.
+e 750.
 
 [42]
 
-LaTeX Warning: Citation `palm1986warren' on page 43 undefined on input line 766
+LaTeX Warning: Citation `palm1986warren' on page 43 undefined on input line 765
 .
 
 
 LaTeX Warning: Citation `yang2016propositional' on page 43 undefined on input l
-ine 769.
+ine 768.
 
 [43] [44]
 
-LaTeX Warning: Command \' invalid in math mode on input line 836.
+LaTeX Warning: Command \' invalid in math mode on input line 835.
 
 
-LaTeX Warning: Command \~ invalid in math mode on input line 845.
+LaTeX Warning: Command \~ invalid in math mode on input line 844.
 
 
-LaTeX Warning: Command \~ invalid in math mode on input line 855.
+LaTeX Warning: Command \~ invalid in math mode on input line 854.
 
 [45]
 
-LaTeX Warning: Command \~ invalid in math mode on input line 865.
+LaTeX Warning: Command \~ invalid in math mode on input line 864.
 
 
-LaTeX Warning: Command \c invalid in math mode on input line 865.
+LaTeX Warning: Command \c invalid in math mode on input line 864.
 
 
-LaTeX Warning: Command \~ invalid in math mode on input line 865.
+LaTeX Warning: Command \~ invalid in math mode on input line 864.
 
 
-LaTeX Warning: Command \~ invalid in math mode on input line 865.
+LaTeX Warning: Command \~ invalid in math mode on input line 864.
 
 
-LaTeX Warning: Command \c invalid in math mode on input line 865.
+LaTeX Warning: Command \c invalid in math mode on input line 864.
 
 
-LaTeX Warning: Command \~ invalid in math mode on input line 865.
+LaTeX Warning: Command \~ invalid in math mode on input line 864.
 
 
 LaTeX Warning: Citation `meyerbaese2014foundations' on page 46 undefined on inp
-ut line 890.
+ut line 889.
 
 [46] [47] [48
 
@@ -1848,16 +1848,16 @@ ut line 890.
 Cap\'{\i }tulo 3.
 
 LaTeX Warning: Citation `mouta2025automaterials' on page 49 undefined on input 
-line 904.
+line 903.
 
 
-LaTeX Warning: Reference `tab:1' on page 49 undefined on input line 911.
+LaTeX Warning: Reference `tab:1' on page 49 undefined on input line 910.
 
 
-LaTeX Warning: Reference `eq:31' on page 49 undefined on input line 949.
+LaTeX Warning: Reference `eq:31' on page 49 undefined on input line 948.
 
 
-LaTeX Warning: Reference `tab:2' on page 49 undefined on input line 953.
+LaTeX Warning: Reference `tab:2' on page 49 undefined on input line 952.
 
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
@@ -1875,14 +1875,14 @@ Underfull \vbox (badness 10000) has occurred while \output is active []
  [53]
 
 LaTeX Warning: Citation `buteau2019analysis' on page 54 undefined on input line
- 1098.
+ 1097.
 
 
 LaTeX Warning: Citation `buteau2019analysis' on page 54 undefined on input line
- 1114.
+ 1113.
 
 
-LaTeX Warning: Reference `eq:44' on page 54 undefined on input line 1118.
+LaTeX Warning: Reference `eq:44' on page 54 undefined on input line 1117.
 
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
@@ -1890,37 +1890,37 @@ Underfull \vbox (badness 10000) has occurred while \output is active []
  [54]
 
 LaTeX Warning: Citation `buteau2019analysis' on page 55 undefined on input line
- 1124.
+ 1123.
 
 
-LaTeX Warning: Reference `eq:45' on page 55 undefined on input line 1125.
-
-
-LaTeX Warning: Citation `buteau2019analysis' on page 55 undefined on input line
- 1140.
-
-
-LaTeX Warning: Reference `eq:46' on page 55 undefined on input line 1147.
+LaTeX Warning: Reference `eq:45' on page 55 undefined on input line 1124.
 
 
 LaTeX Warning: Citation `buteau2019analysis' on page 55 undefined on input line
- 1153.
+ 1139.
 
 
-LaTeX Warning: Reference `eq:47' on page 55 undefined on input line 1153.
+LaTeX Warning: Reference `eq:46' on page 55 undefined on input line 1146.
 
 
-LaTeX Warning: Reference `eq:48' on page 55 undefined on input line 1164.
+LaTeX Warning: Citation `buteau2019analysis' on page 55 undefined on input line
+ 1152.
 
 
-Overfull \hbox (5.46701pt too wide) detected at line 1176
+LaTeX Warning: Reference `eq:47' on page 55 undefined on input line 1152.
+
+
+LaTeX Warning: Reference `eq:48' on page 55 undefined on input line 1163.
+
+
+Overfull \hbox (5.46701pt too wide) detected at line 1175
 [][][]\OML/lmm/m/it/12 ^^_ \OT1/lmr/m/n/12 = [] \OMS/lmsy/m/n/12 2 \U/msb/m/n/1
 2 R[]
  []
 
 [55] [56]
 
-LaTeX Warning: Reference `figura18' on page 57 undefined on input line 1233.
+LaTeX Warning: Reference `figura18' on page 57 undefined on input line 1232.
 
 <Figuras/evolução da acurácia de treinamento e de validação ao longo das �
 �pocas de treinamento da rede neural convolucional.png, id=412, 1140.26pt x 639
@@ -1932,14 +1932,14 @@ png)
 as épocas de treinamento da rede neural convolucional.png>
 Package pdftex.def Info: Figuras/evolução da acurácia de treinamento e de va
 lidação ao longo das épocas de treinamento da rede neural convolucional.png 
- used on input line 1240.
+ used on input line 1239.
 (pdftex.def)             Requested size: 376.42575pt x 211.07698pt.
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
  [57]
 
-LaTeX Warning: Reference `figura19' on page 58 undefined on input line 1267.
+LaTeX Warning: Reference `figura19' on page 58 undefined on input line 1266.
 
 [58 <./Figuras/evolução da acurácia de treinamento e de validação ao longo
  das épocas de treinamento da rede neural convolucional.png>]
@@ -1947,15 +1947,15 @@ LaTeX Warning: Reference `figura19' on page 58 undefined on input line 1267.
 File: Figuras/historico_treinamento.png Graphic file (type png)
 <use Figuras/historico_treinamento.png>
 Package pdftex.def Info: Figuras/historico_treinamento.png  used on input line 
-1273.
+1272.
 (pdftex.def)             Requested size: 376.42575pt x 195.83438pt.
 
 
 LaTeX Warning: Reference `tab:metricas_desempenho' on page 59 undefined on inpu
-t line 1286.
+t line 1285.
 
 
-LaTeX Warning: Reference `figura20' on page 59 undefined on input line 1311.
+LaTeX Warning: Reference `figura20' on page 59 undefined on input line 1310.
 
 [59 <./Figuras/historico_treinamento.png>]
 <Figuras/matriz de confusão do modelo treinado.png, id=431, 795.97375pt x 782.
@@ -1964,12 +1964,12 @@ File: Figuras/matriz de confusão do modelo treinado.png Graphic file (type png
 )
 <use Figuras/matriz de confusão do modelo treinado.png>
 Package pdftex.def Info: Figuras/matriz de confusão do modelo treinado.png  us
-ed on input line 1319.
+ed on input line 1318.
 (pdftex.def)             Requested size: 376.42575pt x 370.24463pt.
  [60] [61 <./Figuras/matriz de confusão do modelo treinado.png>]
 
 LaTeX Warning: Citation `schaeffer2023machine' on page 62 undefined on input li
-ne 1363.
+ne 1362.
 
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
@@ -1981,37 +1981,37 @@ File: Figuras/curva ROC por classe para o classificador RF.png Graphic file (ty
 pe png)
 <use Figuras/curva ROC por classe para o classificador RF.png>
 Package pdftex.def Info: Figuras/curva ROC por classe para o classificador RF.p
-ng  used on input line 1412.
+ng  used on input line 1411.
 (pdftex.def)             Requested size: 376.42575pt x 265.8932pt.
 
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
 
-LaTeX Warning: Reference `figura21' on page 63 undefined on input line 1421.
+LaTeX Warning: Reference `figura21' on page 63 undefined on input line 1420.
 
 <Figuras/matriz de confusão RF.png, id=449, 896.34875pt x 775.89874pt>
 File: Figuras/matriz de confusão RF.png Graphic file (type png)
 <use Figuras/matriz de confusão RF.png>
 Package pdftex.def Info: Figuras/matriz de confusão RF.png  used on input line
- 1427.
+ 1426.
 (pdftex.def)             Requested size: 376.42575pt x 325.83974pt.
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
 
-LaTeX Warning: Reference `figura22' on page 63 undefined on input line 1434.
+LaTeX Warning: Reference `figura22' on page 63 undefined on input line 1433.
 
 [63]
 
-LaTeX Warning: Reference `figura23' on page 64 undefined on input line 1438.
+LaTeX Warning: Reference `figura23' on page 64 undefined on input line 1437.
 
 <Figuras/relatório de classificação do RF.png, id=458, 963.6pt x 733.74126pt
 >
 File: Figuras/relatório de classificação do RF.png Graphic file (type png)
 <use Figuras/relatório de classificação do RF.png>
 Package pdftex.def Info: Figuras/relatório de classificação do RF.png  used 
-on input line 1444.
+on input line 1443.
 (pdftex.def)             Requested size: 334.60422pt x 254.78682pt.
 
 LaTeX Warning: `h' float specifier changed to `ht'.
@@ -2021,11 +2021,11 @@ File: Figuras/curva ROC por classe para o classificador RF.png Graphic file (ty
 pe png)
 <use Figuras/curva ROC por classe para o classificador RF.png>
 Package pdftex.def Info: Figuras/curva ROC por classe para o classificador RF.p
-ng  used on input line 1465.
+ng  used on input line 1464.
 (pdftex.def)             Requested size: 376.42575pt x 265.8932pt.
 
 
-LaTeX Warning: Reference `figura24' on page 65 undefined on input line 1472.
+LaTeX Warning: Reference `figura24' on page 65 undefined on input line 1471.
 
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
@@ -2037,21 +2037,21 @@ File: Figuras/matriz de confusão do KNN sobre o conjunto de teste.png Graphic
 file (type png)
 <use Figuras/matriz de confusão do KNN sobre o conjunto de teste.png>
 Package pdftex.def Info: Figuras/matriz de confusão do KNN sobre o conjunto de
- teste.png  used on input line 1479.
+ teste.png  used on input line 1478.
 (pdftex.def)             Requested size: 376.42575pt x 335.51816pt.
 
 
-LaTeX Warning: Reference `figura25' on page 66 undefined on input line 1486.
+LaTeX Warning: Reference `figura25' on page 66 undefined on input line 1485.
 
 
-LaTeX Warning: Reference `figura26' on page 66 undefined on input line 1488.
+LaTeX Warning: Reference `figura26' on page 66 undefined on input line 1487.
 
 <Figuras/relatório de classificação do KNN.png, id=474, 973.6375pt x 757.831
 25pt>
 File: Figuras/relatório de classificação do KNN.png Graphic file (type png)
 <use Figuras/relatório de classificação do KNN.png>
 Package pdftex.def Info: Figuras/relatório de classificação do KNN.png  used
- on input line 1494.
+ on input line 1493.
 (pdftex.def)             Requested size: 376.42575pt x 292.98589pt.
 
 Underfull \vbox (badness 1546) has occurred while \output is active []
@@ -2062,11 +2062,11 @@ Underfull \vbox (badness 1546) has occurred while \output is active []
 File: Figuras/curva ROC da árvore de decisão.png Graphic file (type png)
 <use Figuras/curva ROC da árvore de decisão.png>
 Package pdftex.def Info: Figuras/curva ROC da árvore de decisão.png  used on 
-input line 1518.
+input line 1517.
 (pdftex.def)             Requested size: 376.42575pt x 271.4545pt.
 
 
-LaTeX Warning: Reference `figura27' on page 67 undefined on input line 1524.
+LaTeX Warning: Reference `figura27' on page 67 undefined on input line 1523.
 
 
 Underfull \vbox (badness 7273) has occurred while \output is active []
@@ -2080,11 +2080,11 @@ ste.png Graphic file (type png)
 <use Figuras/matriz de confusão da árvore de decisão sobre o conjunto de tes
 te.png>
 Package pdftex.def Info: Figuras/matriz de confusão da árvore de decisão sob
-re o conjunto de teste.png  used on input line 1529.
+re o conjunto de teste.png  used on input line 1528.
 (pdftex.def)             Requested size: 376.42575pt x 326.37202pt.
 
 
-LaTeX Warning: Reference `figura28' on page 69 undefined on input line 1535.
+LaTeX Warning: Reference `figura28' on page 69 undefined on input line 1534.
 
 <Figuras/relatório de classificação da árvore de decisão.png, id=495, 672.
 5125pt x 521.95pt>
@@ -2092,17 +2092,17 @@ File: Figuras/relatório de classificação da árvore de decisão.png Graphic
 file (type png)
 <use Figuras/relatório de classificação da árvore de decisão.png>
 Package pdftex.def Info: Figuras/relatório de classificação da árvore de de
-cisão.png  used on input line 1542.
+cisão.png  used on input line 1541.
 (pdftex.def)             Requested size: 376.42575pt x 292.1546pt.
 
-LaTeX Warning: Reference `figura29' on page 69 undefined on input line 1550.
+LaTeX Warning: Reference `figura29' on page 69 undefined on input line 1549.
 
 
 Underfull \vbox (badness 3792) has occurred while \output is active []
 
  [69 <./Figuras/relatório de classificação do KNN.png>]
 LaTeX Font Info:    Trying to load font information for T1+pcr on input line 15
-59.
+58.
 
 (c:/texlive/2026/texmf-dist/tex/latex/psnfss/t1pcr.fd
 File: t1pcr.fd 2001/06/04 font definitions for T1/pcr.
@@ -2119,12 +2119,12 @@ ROC c) de regressão logística..png Graphic file (type png)
 <use Figuras/matriz de confusão a), relatório de classificação b) e curva R
 OC c) de regressão logística..png>
 Package pdftex.def Info: Figuras/matriz de confusão a), relatório de classifi
-cação b) e curva ROC c) de regressão logística..png  used on input line 157
-0.
+cação b) e curva ROC c) de regressão logística..png  used on input line 156
+9.
 (pdftex.def)             Requested size: 376.42575pt x 211.56877pt.
 
 
-LaTeX Warning: Reference `figura30' on page 71 undefined on input line 1580.
+LaTeX Warning: Reference `figura30' on page 71 undefined on input line 1579.
 
 <Figuras/matriz de confusão d), relatório de classificação e) e curva ROC f
 ) do gaussian Naive Bayess.png, id=511, 1443.3925pt x 813.0375pt>
@@ -2133,13 +2133,13 @@ ROC f) do gaussian Naive Bayess.png Graphic file (type png)
 <use Figuras/matriz de confusão d), relatório de classificação e) e curva R
 OC f) do gaussian Naive Bayess.png>
 Package pdftex.def Info: Figuras/matriz de confusão d), relatório de classifi
-cação e) e curva ROC f) do gaussian Naive Bayess.png  used on input line 1596
+cação e) e curva ROC f) do gaussian Naive Bayess.png  used on input line 1595
 .
 (pdftex.def)             Requested size: 376.42575pt x 212.02988pt.
 [71 <./Figuras/matriz de confusão da árvore de decisão sobre o conjunto de t
 este.png>]
 
-LaTeX Warning: Reference `figura31' on page 72 undefined on input line 1605.
+LaTeX Warning: Reference `figura31' on page 72 undefined on input line 1604.
 
 [72 <./Figuras/relatório de classificação da árvore de decisão.png>]
 <Figuras/matrix de confusão g), relatório de classificação h) e a curva ROC
@@ -2149,11 +2149,11 @@ a ROC i) do SVM.png Graphic file (type png)
 <use Figuras/matrix de confusão g), relatório de classificação h) e a curva
  ROC i) do SVM.png>
 Package pdftex.def Info: Figuras/matrix de confusão g), relatório de classifi
-cação h) e a curva ROC i) do SVM.png  used on input line 1618.
+cação h) e a curva ROC i) do SVM.png  used on input line 1617.
 (pdftex.def)             Requested size: 376.42575pt x 211.50633pt.
 
 
-LaTeX Warning: Reference `figura32' on page 73 undefined on input line 1626.
+LaTeX Warning: Reference `figura32' on page 73 undefined on input line 1625.
 
 [73 <./Figuras/matriz de confusão a), relatório de classificação b) e curva
  ROC c) de regressão logística..png>] [74 <./Figuras/matriz de confusão d), 
@@ -2165,11 +2165,11 @@ File: Figuras/curva ROC por classe para XGB AUC=1.0 para todas as 11 topologias
 <use Figuras/curva ROC por classe para XGB AUC=1.0 para todas as 11 topologias.
 png>
 Package pdftex.def Info: Figuras/curva ROC por classe para XGB AUC=1.0 para tod
-as as 11 topologias.png  used on input line 1640.
+as as 11 topologias.png  used on input line 1639.
 (pdftex.def)             Requested size: 376.42575pt x 257.08823pt.
 
 
-LaTeX Warning: Reference `figura33' on page 75 undefined on input line 1646.
+LaTeX Warning: Reference `figura33' on page 75 undefined on input line 1645.
 
 <Figuras/matriz de confusão do XGB sobre o conjunto de teste.png, id=542, 923.
 45pt x 788.9475pt>
@@ -2177,20 +2177,20 @@ File: Figuras/matriz de confusão do XGB sobre o conjunto de teste.png Graphic
 file (type png)
 <use Figuras/matriz de confusão do XGB sobre o conjunto de teste.png>
 Package pdftex.def Info: Figuras/matriz de confusão do XGB sobre o conjunto de
- teste.png  used on input line 1652.
+ teste.png  used on input line 1651.
 (pdftex.def)             Requested size: 376.42575pt x 321.59258pt.
 
-LaTeX Warning: Reference `figura34' on page 75 undefined on input line 1661.
+LaTeX Warning: Reference `figura34' on page 75 undefined on input line 1660.
 
 <Figuras/relatório de classificação do XGB.png, id=543, 1023.825pt x 789.951
 25pt>
 File: Figuras/relatório de classificação do XGB.png Graphic file (type png)
 <use Figuras/relatório de classificação do XGB.png>
 Package pdftex.def Info: Figuras/relatório de classificação do XGB.png  used
- on input line 1669.
+ on input line 1668.
 (pdftex.def)             Requested size: 376.42575pt x 290.43317pt.
 
-LaTeX Warning: Reference `figura35' on page 75 undefined on input line 1678.
+LaTeX Warning: Reference `figura35' on page 75 undefined on input line 1677.
 
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
@@ -2204,12 +2204,12 @@ ROC l) do GB.png Graphic file (type png)
 <use Figuras/matrix de confusão j), relatório de classificação k) e curva R
 OC l) do GB.png>
 Package pdftex.def Info: Figuras/matrix de confusão j), relatório de classifi
-cação k) e curva ROC l) do GB.png  used on input line 1693.
+cação k) e curva ROC l) do GB.png  used on input line 1692.
 (pdftex.def)             Requested size: 376.42575pt x 212.21005pt.
  [76 <./Figuras/curva ROC por classe para XGB AUC=1.0 para todas as 11 topologi
 as.png>]
 
-LaTeX Warning: Reference `figura36' on page 77 undefined on input line 1702.
+LaTeX Warning: Reference `figura36' on page 77 undefined on input line 1701.
 
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
@@ -2222,11 +2222,11 @@ ROC o) do SGD.png Graphic file (type png)
 <use Figuras/matriz de confusão m), relatório de classificação n) e curva R
 OC o) do SGD.png>
 Package pdftex.def Info: Figuras/matriz de confusão m), relatório de classifi
-cação n) e curva ROC o) do SGD.png  used on input line 1718.
+cação n) e curva ROC o) do SGD.png  used on input line 1717.
 (pdftex.def)             Requested size: 376.42575pt x 211.50633pt.
 
 
-LaTeX Warning: Reference `figura37' on page 78 undefined on input line 1726.
+LaTeX Warning: Reference `figura37' on page 78 undefined on input line 1725.
 
 
 Underfull \vbox (badness 3657) has occurred while \output is active []
@@ -2237,12 +2237,12 @@ t>
 File: Figuras/curva ROC por classe para o LGBM.png Graphic file (type png)
 <use Figuras/curva ROC por classe para o LGBM.png>
 Package pdftex.def Info: Figuras/curva ROC por classe para o LGBM.png  used on 
-input line 1743.
+input line 1742.
 (pdftex.def)             Requested size: 376.42575pt x 266.17442pt.
  [79 <./Figuras/matrix de confusão j), relatório de classificação k) e curv
 a ROC l) do GB.png>]
 
-LaTeX Warning: Reference `figura38' on page 80 undefined on input line 1751.
+LaTeX Warning: Reference `figura38' on page 80 undefined on input line 1750.
 
 <Figuras/matriz de confusão do LGBM sobre o conjunto de teste.png, id=581, 908
 .39375pt x 816.04875pt>
@@ -2250,10 +2250,10 @@ File: Figuras/matriz de confusão do LGBM sobre o conjunto de teste.png Graphic
  file (type png)
 <use Figuras/matriz de confusão do LGBM sobre o conjunto de teste.png>
 Package pdftex.def Info: Figuras/matriz de confusão do LGBM sobre o conjunto d
-e teste.png  used on input line 1759.
+e teste.png  used on input line 1758.
 (pdftex.def)             Requested size: 376.42575pt x 338.15585pt.
 
-LaTeX Warning: Reference `figura39' on page 80 undefined on input line 1769.
+LaTeX Warning: Reference `figura39' on page 80 undefined on input line 1768.
 
 [80 <./Figuras/matriz de confusão m), relatório de classificação n) e curva
  ROC o) do SGD.png>]
@@ -2266,14 +2266,14 @@ Underfull \vbox (badness 10000) has occurred while \output is active []
 File: Figuras/relatório de classificação LGDM.png Graphic file (type png)
 <use Figuras/relatório de classificação LGDM.png>
 Package pdftex.def Info: Figuras/relatório de classificação LGDM.png  used o
-n input line 1793.
+n input line 1792.
 (pdftex.def)             Requested size: 376.42575pt x 290.12921pt.
 
 
-LaTeX Warning: Reference `tab:3' on page 83 undefined on input line 1821.
+LaTeX Warning: Reference `tab:3' on page 83 undefined on input line 1820.
 
 
-LaTeX Warning: Reference `figura41' on page 83 undefined on input line 1821.
+LaTeX Warning: Reference `figura41' on page 83 undefined on input line 1820.
 
 [83 <./Figuras/relatório de classificação LGDM.png>]
 <Figuras/acurácia vs. Validação cruzada.png, id=609, 984.67876pt x 474.77374
@@ -2281,11 +2281,11 @@ pt>
 File: Figuras/acurácia vs. Validação cruzada.png Graphic file (type png)
 <use Figuras/acurácia vs. Validação cruzada.png>
 Package pdftex.def Info: Figuras/acurácia vs. Validação cruzada.png  used on
- input line 1849.
+ input line 1848.
 (pdftex.def)             Requested size: 376.42575pt x 181.49532pt.
  [84]
 
-LaTeX Warning: Reference `figura42' on page 85 undefined on input line 1869.
+LaTeX Warning: Reference `figura42' on page 85 undefined on input line 1868.
 
 <Figuras/f1-score por topologia de circuito equivalente para os cinco melhores 
 modelos avaliados.png, id=615, 1001.7425pt x 508.90125pt>
@@ -2294,7 +2294,7 @@ ores modelos avaliados.png Graphic file (type png)
 <use Figuras/f1-score por topologia de circuito equivalente para os cinco melho
 res modelos avaliados.png>
 Package pdftex.def Info: Figuras/f1-score por topologia de circuito equivalente
- para os cinco melhores modelos avaliados.png  used on input line 1877.
+ para os cinco melhores modelos avaliados.png  used on input line 1876.
 (pdftex.def)             Requested size: 376.42575pt x 191.23352pt.
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
@@ -2340,7 +2340,7 @@ LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
  )
 (\end occurred inside a group at level 1)
 
-### simple group (level 1) entered at line 1811 ({)
+### simple group (level 1) entered at line 1810 ({)
 ### bottom level 
 Here is how much of TeX's memory you used:
  21937 strings out of 467168
@@ -2365,7 +2365,7 @@ elvetic/uhvr8a.pfb><c:/texlive/2026/texmf-dist/fonts/type1/urw/times/utmb8a.pfb
 ><c:/texlive/2026/texmf-dist/fonts/type1/urw/times/utmbi8a.pfb><c:/texlive/2026
 /texmf-dist/fonts/type1/urw/times/utmr8a.pfb><c:/texlive/2026/texmf-dist/fonts/
 type1/urw/times/utmri8a.pfb>
-Output written on main.pdf (90 pages, 3929408 bytes).
+Output written on main.pdf (90 pages, 3929399 bytes).
 PDF statistics:
  908 PDF objects out of 1000 (max. 8388607)
  689 compressed objects within 7 object streams
