@@ -6,46 +6,42 @@
 \setlength {\cftchapterindent }{\cftlastnumwidth } \setlength {\cftchapternumwidth }{2em}
 \setlength {\cftchapterindent }{\cftlastnumwidth } \setlength {\cftchapternumwidth }{2em}
 \setlength {\cftchapterindent }{0em} \setlength {\cftchapternumwidth }{\cftlastnumwidth }
-\contentsline {chapter}{\chapternumberline {1}\MakeTextUppercase []{Introdução}}{19}{chapter.1}%
+\contentsline {chapter}{\chapternumberline {1}\MakeTextUppercase []{Introdução}}{17}{chapter.1}%
 \setlength {\cftchapterindent }{0em} \setlength {\cftchapternumwidth }{\cftlastnumwidth }
-\contentsline {chapter}{\chapternumberline {2}\MakeTextUppercase []{Fundamentação Teórica}}{21}{chapter.2}%
-\contentsline {section}{\numberline {2.1}Espectro de Impedância Eletroquímica}{21}{section.2.1}%
-\contentsline {subsection}{\numberline {2.1.1}Resistor}{24}{subsection.2.1.1}%
-\contentsline {subsection}{\numberline {2.1.2}Capacitor}{25}{subsection.2.1.2}%
-\contentsline {subsection}{\numberline {2.1.3}Indutor}{26}{subsection.2.1.3}%
-\contentsline {subsection}{\numberline {2.1.4}Impedância de Uma Associação de Elementos de Circuito}{27}{subsection.2.1.4}%
-\contentsline {section}{\numberline {2.2}Aprendizado de Máquina (\textit {Machine Learning})}{31}{section.2.2}%
-\contentsline {subsection}{\numberline {2.2.1}Classificação}{32}{subsection.2.2.1}%
-\contentsline {subsubsection}{\numberline {2.2.1.1}Árvore de decisão (\textit {Decision Tree})}{34}{subsubsection.2.2.1.1}%
-\contentsline {subsubsection}{\numberline {2.2.1.2}\textit {Ensemble learning}}{37}{subsubsection.2.2.1.2}%
-\contentsline {subsubsection}{\numberline {2.2.1.3}\textit {Bagging}}{37}{subsubsection.2.2.1.3}%
-\contentsline {subsubsection}{\numberline {2.2.1.4}Floresta aleatória (\textit {Random Forest}, RF)}{39}{subsubsection.2.2.1.4}%
-\contentsline {subsubsection}{\numberline {2.2.1.5}\textit {Boosting}}{40}{subsubsection.2.2.1.5}%
-\contentsline {subsubsection}{\numberline {2.2.1.6}\textit {Gradient Boosting}}{41}{subsubsection.2.2.1.6}%
-\contentsline {subsubsection}{\numberline {2.2.1.7}Light gradiente boosting}{43}{subsubsection.2.2.1.7}%
-\contentsline {subsubsection}{\numberline {2.2.1.8}\textit {Extrement gradient boosting} (XGBoost)}{44}{subsubsection.2.2.1.8}%
-\contentsline {subsection}{\numberline {2.2.2}Aprendizado profundo (\textit {Deep Learning})}{45}{subsection.2.2.2}%
-\contentsline {subsection}{\numberline {2.2.3}Métricas de Classificação}{46}{subsection.2.2.3}%
-\contentsline {subsubsection}{\numberline {2.2.3.1}Acurácia}{47}{subsubsection.2.2.3.1}%
-\contentsline {subsubsection}{\numberline {2.2.3.2}Precisão}{47}{subsubsection.2.2.3.2}%
-\contentsline {subsubsection}{\numberline {2.2.3.3}Revocação (Recall)}{47}{subsubsection.2.2.3.3}%
-\contentsline {subsubsection}{\numberline {2.2.3.4}F1-Score}{48}{subsubsection.2.2.3.4}%
-\contentsline {subsubsection}{\numberline {2.2.3.5}Matriz de Confusão}{48}{subsubsection.2.2.3.5}%
+\contentsline {chapter}{\chapternumberline {2}\MakeTextUppercase []{Fundamentação Teórica}}{19}{chapter.2}%
+\contentsline {section}{\numberline {2.1}Espectroscopia de Impedância}{19}{section.2.1}%
+\contentsline {subsection}{\numberline {2.1.1}Resistor}{22}{subsection.2.1.1}%
+\contentsline {subsection}{\numberline {2.1.2}Capacitor}{22}{subsection.2.1.2}%
+\contentsline {subsection}{\numberline {2.1.3}Indutor}{24}{subsection.2.1.3}%
+\contentsline {subsection}{\numberline {2.1.4}Impedância de Uma Associação de Elementos de Circuito}{25}{subsection.2.1.4}%
+\contentsline {section}{\numberline {2.2}Aprendizado de Máquina (\textit {Machine Learning})}{28}{section.2.2}%
+\contentsline {subsection}{\numberline {2.2.1}Classificação}{30}{subsection.2.2.1}%
+\contentsline {subsubsection}{\numberline {2.2.1.1}Árvore de decisão (\textit {Decision Tree})}{31}{subsubsection.2.2.1.1}%
+\contentsline {subsubsection}{\numberline {2.2.1.2}\textit {Ensemble learning}}{35}{subsubsection.2.2.1.2}%
+\contentsline {subsubsection}{\numberline {2.2.1.3}\textit {Bagging}}{35}{subsubsection.2.2.1.3}%
+\contentsline {subsubsection}{\numberline {2.2.1.4}Floresta aleatória (\textit {Random Forest}, RF)}{37}{subsubsection.2.2.1.4}%
+\contentsline {subsubsection}{\numberline {2.2.1.5}\textit {Boosting}}{38}{subsubsection.2.2.1.5}%
+\contentsline {subsubsection}{\numberline {2.2.1.6}\textit {Gradient Boosting}}{39}{subsubsection.2.2.1.6}%
+\contentsline {subsubsection}{\numberline {2.2.1.7}Light gradiente boosting}{41}{subsubsection.2.2.1.7}%
+\contentsline {subsubsection}{\numberline {2.2.1.8}\textit {Extrement gradient boosting} (XGBoost)}{42}{subsubsection.2.2.1.8}%
+\contentsline {subsection}{\numberline {2.2.2}Aprendizado profundo (\textit {Deep Learning})}{43}{subsection.2.2.2}%
+\contentsline {subsection}{\numberline {2.2.3}Métricas de Classificação}{44}{subsection.2.2.3}%
+\contentsline {subsubsection}{\numberline {2.2.3.1}Acurácia}{45}{subsubsection.2.2.3.1}%
+\contentsline {subsubsection}{\numberline {2.2.3.2}Precisão}{45}{subsubsection.2.2.3.2}%
+\contentsline {subsubsection}{\numberline {2.2.3.3}Revocação (Recall)}{45}{subsubsection.2.2.3.3}%
+\contentsline {subsubsection}{\numberline {2.2.3.4}F1-Score}{46}{subsubsection.2.2.3.4}%
+\contentsline {subsubsection}{\numberline {2.2.3.5}Matriz de Confusão}{46}{subsubsection.2.2.3.5}%
 \setlength {\cftchapterindent }{0em} \setlength {\cftchapternumwidth }{\cftlastnumwidth }
-\contentsline {chapter}{\chapternumberline {3}\MakeTextUppercase []{Resultados e Discussões}}{51}{chapter.3}%
-\contentsline {section}{\numberline {3.1}\textit {Random Forest} (RF) - Floresta Aleatória}{65}{section.3.1}%
-\contentsline {section}{\numberline {3.2}\textit {k-Nearest Neighbours} (KNN)}{66}{section.3.2}%
-\contentsline {section}{\numberline {3.3}Árvore de Decisão}{69}{section.3.3}%
-\contentsline {section}{\numberline {3.4}Regressão Logística}{72}{section.3.4}%
-\contentsline {section}{\numberline {3.5}\textit {Gaussian Naive Bayes}}{74}{section.3.5}%
-\contentsline {section}{\numberline {3.6}\textit {Linear Support Vector Machine} (LinearSVC) ou SVM}{75}{section.3.6}%
-\contentsline {section}{\numberline {3.7}XGBoost (\textit {Extreme Gradient Boosting} - XGB)}{76}{section.3.7}%
-\contentsline {section}{\numberline {3.8}\textit {Gradiente Boosting} (GB)}{78}{section.3.8}%
-\contentsline {section}{\numberline {3.9}\textit {Stochastic Gradient Descent} (SGDClassifier)}{80}{section.3.9}%
-\contentsline {section}{\numberline {3.10}LightGBM (\textit {Light Gradient Boosting Machine} - LGBM)}{81}{section.3.10}%
+\contentsline {chapter}{\chapternumberline {3}\MakeTextUppercase []{Resultados e Discussões}}{49}{chapter.3}%
+\contentsline {section}{\numberline {3.1}\textit {Random Forest} (RF) - Floresta Aleatória}{63}{section.3.1}%
+\contentsline {section}{\numberline {3.2}\textit {k-Nearest Neighbours} (KNN)}{64}{section.3.2}%
+\contentsline {section}{\numberline {3.3}Árvore de Decisão}{67}{section.3.3}%
+\contentsline {section}{\numberline {3.4}Regressão Logística}{70}{section.3.4}%
+\contentsline {section}{\numberline {3.5}\textit {Gaussian Naive Bayes}}{72}{section.3.5}%
+\contentsline {section}{\numberline {3.6}\textit {Linear Support Vector Machine} (LinearSVC) ou SVM}{73}{section.3.6}%
+\contentsline {section}{\numberline {3.7}XGBoost (\textit {Extreme Gradient Boosting} - XGB)}{74}{section.3.7}%
+\contentsline {section}{\numberline {3.8}\textit {Gradiente Boosting} (GB)}{76}{section.3.8}%
+\contentsline {section}{\numberline {3.9}\textit {Stochastic Gradient Descent} (SGDClassifier)}{78}{section.3.9}%
+\contentsline {section}{\numberline {3.10}LightGBM (\textit {Light Gradient Boosting Machine} - LGBM)}{79}{section.3.10}%
 \setlength {\cftchapterindent }{0em} \setlength {\cftchapternumwidth }{\cftlastnumwidth }
-\contentsline {chapter}{\chapternumberline {4}\MakeTextUppercase []{CONCLUSÕES}}{89}{chapter.4}%
-\vspace {\cftbeforechapterskip }
-\setlength {\cftchapterindent }{\cftlastnumwidth } \setlength {\cftchapternumwidth }{2em}
-\contentsline {chapter}{\MakeTextUppercase []{Refer\^encias}}{91}{section*.14}%
-\vspace {\cftbeforechapterskip }
+\contentsline {chapter}{\chapternumberline {4}\MakeTextUppercase []{CONCLUSÕES}}{87}{chapter.4}%
