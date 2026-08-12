@@ -619,17 +619,13 @@ De forma semelhante ao método \textit{bagging}, a estrutura de funcionamento do
 
 • Seleciona-se o resultado da previsão mais votado como o resultado final.
 
-A RF é uma combinação de múltiplas árvores de decisão. Ademais, árvore de decisão profundas podem
+Ademais, árvore de decisão profundas podem
 sofrer de \textit{overfitting}, mas RF previnem isso criando árvores em subamostras. Embora as árvores de decisão sejam computacionalmente rápidas, a RF é difícil de interpretar, são modelos que
 são consideradas caixas pretas. Suas vantagens incluem alta precisão e robustez devido ao
 grande número de árvores no processo, bem como a capacidade de lidar com valores ausente e
 computar a importância das características.
 \subsubsection{\textit{Boosting}}
-É uma técnica de amostragem na qual várias amostras aleatórias são criadas a partir do
-conjunto de dados de treinamento. O objetivo é gerar novos dados para prever futuros dados
-reais e aprimorar o desempenho do modelo. Essa abordagem constrói o novo aprendiz de forma
-sequencial, onde cada classificador é treinado com base nos dados, considerando o desempenho
-dos classificadores anteriores. Após cada etapa de treinamento, os pesos são redistribuídos. A
+É uma técnica de aprendizado em conjunto na qual vários modelos somples são treinados sequencialmente. Diferente do bagging, os modelos não são independentes: cada novo aprendiz é construído para reduzir os erros do conjunto formado pelos aprendizes anteriores. No AdaBoost, isso é feito aumentando  a importância das amostras classificadas incorrentamente. Em métodos de gradient boosting, como Gradient Boosting, XGBoost e LightGBM, cada novo modelo é treinado para aproximar uma direção de correção associada ao grandiente da função de perda. A previsão final resulta da combinação ponderada ou aditiva de todos os modelos treinados. A
 Figura~\ref{figura14} ilustra o processo geral do Boosting, existem várias alternativas para determinar os
 pesos a serem utilizados na próxima etapa. Essa técnica pode resultar em um modelo combinado
 com menos erros, pois otimiza as vantagens e reduz as limitações no modelo único.
@@ -687,10 +683,10 @@ As interações são repetidas várias vezes, com o objetivo de minimizar o res�
 modelos fracos, ou seja, até que o valor previsto e o valor real sejam a menor possível. O modelo
 final é a soma dos ajustes de todos os modelos fracos.
 
-\subsubsection{Light gradiente boosting}
-\textit{Light Gradiente Boosting Machine} (LightGBM) é um algoritmo de aprendizado de
+\subsubsection{Light gradient boosting}
+\textit{Light Gradient Boosting Machine} (LightGBM) é um algoritmo de aprendizado de
 máquina desenvolvida pela Microsoft e disponibilizado como código aberto \textit{(open-source)}. Ele
-se baseia no modelo de Gradiente Boosting (GB), mas é mais rápido e eficiente que o GB
+se baseia no modelo de Gradient Boosting (GB), mas é mais rápido e eficiente que o GB
 tradicional, que vimos na subseção anterior, e também que o XGBoost, que veremos
 posteriormente.
 
@@ -713,9 +709,9 @@ LightGBM é sua capacidade de lidar com conjuntos de dados em grande escala. Ele
 processar milhões ou bilhões de registros com milhares de características, tornando-o ideal para
 aplicações em que a escalabilidade é crucial.
 
-\subsubsection{\textit{Extrement gradient boosting} (XGBoost)}
+\subsubsection{\textit{Extreme gradient boosting} (XGBoost)}
 O \textit{}{Extreme Gradient Boosting} (XGBoost) é um algoritmo de aprendizado de
-máquina baseado no método de \textit{Gradiente Boosting}, e amplamente utilizado para resolver
+máquina baseado no método de \textit{Gradient Boosting}, e amplamente utilizado para resolver
 problemas de classificação e regressão. O XGBoost aprimora o desempenho preditivo por meio
 de uma abordagem iterativa, onde utiliza combinação ponderada uma sequência de modelos
 fracos, como árvores de decisão, para corrigir erros cometidos nas iterações anteriores \cite{chen2016xgboost}. As
@@ -810,7 +806,7 @@ matriz apresenta a decomposição das previsões em quatro categorias principais
 • Verdadeiro positivo (VP): quando o modelo prevê corretamente a classe
 positiva;
 
-• Verdade negativa (VN): quando o modelo prevê corretamente a classe
+• Verdadeiro negativa (VN): quando o modelo prevê corretamente a classe
 negativa;
 
 • Falso Positivo (FP): quando o modelo classifica uma instância como
@@ -949,7 +945,7 @@ indutância e os parâmetros do elemento de fase constante (CPE - \textit{Consta
 ver na equação \eqref{eq:31}. 
 
 Além disso, definiu-se o intervalo de variação da frequência em décadas
-logarítmicas, iniciando com 30 décadas. Os parâmetros de entrada empregados na geração
+logarítmicas, iniciando com 30 pontos por décadas. Os parâmetros de entrada empregados na geração
 sintética dos dados encontram-se resumidos na Tabela \ref{tab:2}.
 
 \begin{table}[htb]
