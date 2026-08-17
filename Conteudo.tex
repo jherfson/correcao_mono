@@ -6,8 +6,8 @@
 % ----------------------------------------------------------
 \chapter{Introdução}
 Tem havido grande busca por fontes de energia limpa, devido à urgência climática
-para que haja um abandono de uso dos combustíveis fósseis, e essa energia deve ser armazenada
-em dispositivos como baterias recarregáveis baratas e seguras. Pela mesma razão, o mercado
+para que haja o abandono de uso dos combustíveis fósseis, e essa energia deve ser armazenada
+em dispositivos como baterias recarregáveis de baixo custo e seguras. Pela mesma razão, o mercado
 de veículos elétricos (EVs) tem crescido e recebido muitos investimentos. Em 2025, as vendas
 de EVs corresponderam a aproximadamente 14\% de carros vendidos de todo o mundo \cite{IEA2026}. Para os EVs terem
 uma maior utilização e aceitação no mercado, as baterias precisarão, entre outros fatores, ser
@@ -149,7 +149,7 @@ e a parte imaginária:
     Z" = 0.
     \label{eq:16}
 \end{equation}
-Assim, com base na relação \eqref{eq:14}, podemos observar que a parte real da impedância permanece constante independentemente da frequência.
+Assim, com base na relação \eqref{eq:15}, podemos observar que a parte real da impedância permanece constante independentemente da frequência.
 Em um circuito puramente resistivo, a impedância não possui uma parte imaginária, sendo representada apenas pela resistência do elemento. Assim, um resistor ideal é representado em um diagrama de Nyquist, além disso é representado por uma série de pontos sobrepostos na mesma posição, na qual cada ponto corresponde a uma frequência medida. Podemos ver essa representação na Figura~\ref{figura3}.
 \begin{figure}[htbp]
     \centering
@@ -160,7 +160,7 @@ Em um circuito puramente resistivo, a impedância não possui uma parte imaginá
 \end{figure}
 
 \subsection{Capacitor}
-Uma corrente constante não pode fluir através de um capacitor, mas a carga elétrica pode se acumular nela, além disso essa carga é diferente para cada tensão aplicada. Vimos a relação fundamental entre a carga e tensão na equação \eqref{eq:3} e, também, a reatância capacitiva na
+Uma corrente constante não pode fluir através de um capacitor, mas a carga elétrica pode se acumular nele, além disso, essa carga é diferente para cada tensão aplicada. Vimos a relação fundamental entre a carga e tensão na equação \eqref{eq:3} e, também, a reatância capacitiva na
 expressão \eqref{eq:5}. Então, a impedância de um capacitor será descrita como:
 \begin{equation}
     Z_C = \frac{i}{\omega C'},
@@ -217,7 +217,7 @@ Sendo a parte real:
 \end{equation}
 e a parte imaginária:
 \begin{equation}
-    Z'' = \omega L.
+    Z" = \omega L.
     \label{eq:24}
 \end{equation}
 por meio das equações \eqref{eq:22}, \eqref{eq:23} e \eqref{eq:24}, observa-se que a parte imaginária da impedância corresponde
@@ -321,7 +321,7 @@ Isolando $\omega_{Z''\_max}$,
 Essa expressão pode ainda ser escrita em termos da constante de tempo $\tau = R_1 C_1$:
 
 \begin{equation}
-	\omega_{Z''\_max} = \frac{1}{\tau} = \frac{1}{R_1 C_1}.
+	\omega_{Z''\_max} = \frac{1}{R_1 C_1}= \frac{1}{\tau} .
 	\label{eq:r1c1}
 \end{equation}
 

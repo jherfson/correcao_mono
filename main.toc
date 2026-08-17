@@ -22,8 +22,8 @@
 \contentsline {subsubsection}{\numberline {2.2.1.4}Floresta aleatória (\textit {Random Forest}, RF)}{39}{subsubsection.2.2.1.4}%
 \contentsline {subsubsection}{\numberline {2.2.1.5}\textit {Boosting}}{40}{subsubsection.2.2.1.5}%
 \contentsline {subsubsection}{\numberline {2.2.1.6}\textit {Gradient Boosting}}{41}{subsubsection.2.2.1.6}%
-\contentsline {subsubsection}{\numberline {2.2.1.7}Light gradiente boosting}{43}{subsubsection.2.2.1.7}%
-\contentsline {subsubsection}{\numberline {2.2.1.8}\textit {Extrement gradient boosting} (XGBoost)}{44}{subsubsection.2.2.1.8}%
+\contentsline {subsubsection}{\numberline {2.2.1.7}Light gradient boosting}{43}{subsubsection.2.2.1.7}%
+\contentsline {subsubsection}{\numberline {2.2.1.8}\textit {Extreme gradient boosting} (XGBoost)}{44}{subsubsection.2.2.1.8}%
 \contentsline {subsection}{\numberline {2.2.2}Aprendizado profundo (\textit {Deep Learning})}{45}{subsection.2.2.2}%
 \contentsline {subsection}{\numberline {2.2.3}Métricas de Classificação}{46}{subsection.2.2.3}%
 \contentsline {subsubsection}{\numberline {2.2.3.1}Acurácia}{47}{subsubsection.2.2.3.1}%
